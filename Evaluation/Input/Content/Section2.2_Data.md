@@ -2,12 +2,53 @@
 
 A literature search was performed to collect available information on physicochemical properties of Warfarin. The obtained information from literature is summarized in the table below. 
 
-| **Parameter**   | **Unit** | **Value** | Source                                     | **Description**                                 |
-| :-------------- | -------- | --------- | ------------------------------------------ | ----------------------------------------------- |
-| MW              | g/mol    |308.33     |                | Molecular weight                                |
-| pK<sub>a</sub>  |  -        | 5.03 (Acid)          |          | Acid dissociation constant                      |
-| Solubility (pH) |  17 at pH7        |     mg/mL      |                | Aqueous Solubility, FaSSIF, ...                 |
-| fu              | %        |           |                | Fraction unbound in plasma                      |
+#### S-warfarin
+
+**Physicochemical and binding properties**
+
+| **Parameter** | **Unit** | **Value** | **Source** | **Description** |
+|:--------------|:---------|----------:|:-----------|:----------------|
+| MW            | g/mol    | 308.33    | —          | Molecular weight |
+| pK<sub>a</sub> | –        | 5.03 (acid) | Tomlin 1997 (DrugBank) | Acid dissociation constant |
+| Solubility     | mg/L     | 17 (at pH 7) | — | Aqueous solubility |
+| fu<sub>plasma</sub> | %  | 0.009     | Takahashi 2003 | Fraction unbound in plasma (albumin binding) |
+| LogP          | –        | 3.46      | Avdeef 1998 | Octanol/water partition coefficient |
+| B/P           | –        | 0.55      | —          | Blood-to-plasma ratio (used in reduction pathway) |
+
+**Metabolic and clearance parameters**
+
+| **Pathway / Enzyme** | **Parameter** | **Unit** | **Value** | **Source / Note** |
+|:---------------------|:--------------|:---------|----------:|:------------------|
+| CYP2C9               | Km            | µM       | 4.4       | [Crewe 2011](#5-references)  |
+| CYP3A4               | Km            | µM       | 14.9      |  [Jones 2010](#5-references) |
+| Reduction to alcohols| Plasma CL     | ml/h/kg  | 0.14      |   |
+| Reduction to alcohols| Specific CL   | 1/min    | 0.02      |   |
+| Renal clearance      | Plasma CL     | ml/h/kg  | 0.07      |   |
+
+
+
+#### R-warfarin
+
+**Physicochemical and binding properties**
+
+| **Parameter** | **Unit** | **Value** | **Source** | **Description** |
+|:--------------|:---------|----------:|:-----------|:----------------|
+| MW            | g/mol    | 308.33    | —          | Molecular weight |
+| pK<sub>a</sub> | –        | 5.03 (acid) | Tomlin 1997 (DrugBank) | Acid dissociation constant |
+| Solubility     | mg/L     | 17 (at pH 7) | — | Aqueous solubility |
+| fu<sub>plasma</sub> | –  | 0.009     | Takahashi 2003 | Fraction unbound in plasma (albumin binding) |
+| LogP          | –        | 3.46      | Avdeef 1998 | Octanol/water partition coefficient |
+| B/P           | –        | 0.55      | —          | Blood-to-plasma ratio   |
+
+**Metabolic and clearance parameters**
+
+| **Pathway / Enzyme** | **Parameter** | **Unit** | **Value** | **Source / Note** |
+|:---------------------|:--------------|:---------|----------:|:------------------|
+| CYP1A2               | Km            | µM       | 648       | Adopted from previous PK-Sim model |
+| CYP2C19              | Km            | µM       | 391       | Adopted from previous PK-Sim model |
+| CYP3A4               | Km            | µM       | 586       | Adopted from previous PK-Sim model |
+| Reduction to alcohols| Plasma CL     | ml/h/kg  | 0.27      |   |
+| Renal clearance      | Plasma CL     | ml/h/kg  | 0.07      |   |
 
 ### Clinical Data  <a id="clinical-data"></a>
 

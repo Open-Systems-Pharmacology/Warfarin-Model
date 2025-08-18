@@ -1,4 +1,4 @@
-The PBPK model for Warfaro, was developed and verified with clinical pharmacokinetic data.
+The PBPK model for Warfarin, was developed and verified with clinical pharmacokinetic data.
 
 The model was evaluated covering data from studies including in particular
 
