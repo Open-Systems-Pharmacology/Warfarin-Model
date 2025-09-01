@@ -1,3 +1,5 @@
+**Avdeef 1998** Avdeef A, Box KJ, Comer JE, Hibbert C, Tam KY. pH-metric logP 10. Determination of liposomal membrane-water partition coefficients of ionizable drugs. Pharm Res. 1998 Feb;15(2):209-15. doi: 10.1023/a:1011954332221. 
+
 **Soon 2006** Soon D, Kothare PA, Linnebjerg H, Park S, Yuen E, Mace KF, Wise SD. Effect of exenatide on the pharmacokinetics and pharmacodynamics of warfarin in healthy Asian men. J Clin Pharmacol. 2006 Oct;46(10):1179-87. doi: 10.1177/0091270006291622. PMID: 16988207.
 
 **Schwartz 2008** Schwartz JI, Dunbar S, Yuan J, Li S, Gipson A, Rosko K, Johnson-Levonas AO, Lasseter KC, Addy C, Stoch AS, Wagner JA. Influence of taranabant, a cannabinoid-1 receptor inverse agonist, on pharmacokinetics and pharmacodynamics of warfarin. Adv Ther. 2008 Nov;25(11):1175-90. doi: 10.1007/s12325-008-0116-9. PMID: 18989636.
@@ -20,7 +22,9 @@
 
 **Almeida 2008** Almeida L, Falcão A, Vaz-da-Silva M, Nunes T, Santos AT, Rocha JF, Neta C, Macedo T, Fontes-Ribeiro C, Soares-da-Silva P. Effect of nebicapone on the pharmacokinetics and pharmacodynamics of warfarin in healthy subjects. Eur J Clin Pharmacol. 2008 Oct;64(10):961-6. doi: 10.1007/s00228-008-0534-2. Epub 2008 Aug 6. PMID: 18679669.
 
-**Dingemande 2013** Kim_2001_10mg_SD_S_fasted
+**Dingemande 2013** 
+
+**Drugbank** DrugBank DB00682 https://go.drugbank.com/drugs/DB00682, accessed 26-08-2025.
 
 **He 2007** He YL, Sabo R, Riviere GJ, Sunkara G, Leon S, Ligueros-Saylan M, Rosenberg M, Dole WP, Howard D. Effect of the novel oral dipeptidyl peptidase IV inhibitor vildagliptin on the pharmacokinetics and pharmacodynamics of warfarin in healthy subjects. Curr Med Res Opin. 2007 May;23(5):1131-8. doi: 10.1185/030079907x188008. PMID: 17519080.
 
@@ -33,6 +37,8 @@
 **Sanwald Ducray 2014** Sanwald-Ducray P, Jamois C, Banken L. The effect of aleglitazar on the pharmacokinetics and pharmacodynamics of S- and R-warfarin in healthy male subjects. J Cardiovasc Pharmacol. 2014 Feb;63(2):152-7. doi: 10.1097/FJC.0000000000000033. PMID: 24157957.
 
 **Stockis 2013** Stockis A, van Lier JJ, Cawello W, Kumke T, Eckhardt K. Lack of effect of lacosamide on the pharmacokinetic and pharmacodynamic profiles of warfarin. Epilepsia. 2013 Jul;54(7):1161-6. doi: 10.1111/epi.12192. Epub 2013 Apr 24. PMID: 23614393.
+
+**Takahashi 2003** Takahashi H, Wilkinson GR, Caraco Y, Muszkat M, Kim RB, Kashima T, Kimura S, Echizen H. Population differences in S-warfarin metabolism between CYP2C9 genotype-matched Caucasian and Japanese patients. Clin Pharmacol Ther. 2003 Mar;73(3):253-63. doi: 10.1067/mcp.2003.26a.
 
 **Toon 1987** Toon S, Hopkins KJ, Garstang FM, Rowland M. Comparative effects of ranitidine and cimetidine on the pharmacokinetics and pharmacodynamics of warfarin in man. Eur J Clin Pharmacol. 1987;32(2):165-72. doi: 10.1007/BF00542190. PMID: 3582481.
 
@@ -48,3 +54,4 @@
 
 **Liao 1996** Liao S, Palmer M, Fowler C, Nayak RK. Absence of an effect of levofloxacin on warfarin pharmacokinetics and anticoagulation in male volunteers. J Clin Pharmacol. 1996 Nov;36(11):1072-7. doi: 10.1177/009127009603601111. PMID: 8973996.
 
+**Shaik 2016** Shaik AN, Grater R, Lulla M, Williams DA, Gan LL, Bohnert T, LeDuc BW. Comparison of enzyme kinetics of warfarin analyzed by LC-MS/MS QTrap and differential mobility spectrometry. J Chromatogr B Analyt Technol Biomed Life Sci. 2016 Jan 1;1008:164-173. doi: 10.1016/j.jchromb.2015.11.036. Epub 2015 Nov 23. PMID: 26655108.
