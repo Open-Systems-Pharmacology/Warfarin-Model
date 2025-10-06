@@ -1121,6 +1121,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -1539,6 +1540,18 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Warfarin 30mg (S- 15mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Schwartz_2008_15mg_S_Fasted"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Warfarin 30mg (S- 15mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Schwartz_2009_15_mg_S_fasted"
+        }
       ],
       "Individual": "Standard Male",
       "Compounds": [
@@ -2253,6 +2266,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2553,6 +2567,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
