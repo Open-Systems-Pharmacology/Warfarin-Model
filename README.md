@@ -14,7 +14,7 @@ For R-Warfarin, the model was developed and evaluated against oral administratio
 
 The PK-Sim snapshot file contains simulations and the observed data of all clinical studies used for model development and evaluation. 
 
-<b>Cave: No experimental values were found for R-Warfarin metabolism, therefore, values were kept from the previous PK-SIM project </b><br>
+<b>Caveat: No experimental values were found for R-Warfarin metabolism, therefore, values were kept from the previous PK-SIM project </b><br>
 
 ## Code of conduct
 
