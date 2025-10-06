@@ -20,8 +20,8 @@ A literature search was performed to collect available information on physicoche
 | CYP2C9               | Km            | µM       | 3.9       | [Shaik 2016](#5-references)  |
 | CYP3A4               | Km            | µM       | 14.9      |  [Shaik 2016](#5-references) |
 | Reduction to alcohols| Plasma CL     | ml/h/kg  | 0.14      |   |
-| Reduction to alcohols| Specific CL   | 1/min    | 0.02      |   |
-| Renal clearance      | Plasma CL     | ml/h/kg  | 0.07      |   |
+| Reduction to alcohols| Specific CL   | 1/min    | 0.02      | Metabolism reduction mediated by aldo-keto reductases (i.e., Fm~10%) [Wittkowsky 2003](#5-references)|
+| Renal clearance      | Plasma CL     | ml/h/kg  | 0.07      |   Consistent with fraction excreted in urine ~ 1% [FDA 2010](#main-references) |
 
 **R-warfarin - Metabolic and clearance parameters**
 
@@ -55,16 +55,16 @@ The following studies were used for model verification:
 | **Dose [mg]** | **Dosing** | **PK data** |**Dataset**| **Reference** |
 | --------------- | ------------------- | ----------------------- | ----------------- |----------------- |
 | 0.375| iv, tab, fasted, sd |plasma|verification|[O'Sullivan 1993](#5-references)| 
-| 7.5| po, tab, fed, sd |plasma|verification|[Frymoyer 2010](#5-references)| 
+| 7.5| po, tab, fasted with meal administration 3h post-dose, sd |plasma|verification|[Frymoyer 2010](#5-references)| 
 | 10| po, tab, fasted, sd |plasma|verification|[Kim 2001](#5-references)| 
 | 10| po, tab, fasted, sd |plasma|verification|[Lilja 2007](#5-references)| 
 | 10| po, tab, fasted, sd |plasma|verification|[Ngo 2010](#5-references)| 
 | 10| po, tab, fasted, sd |plasma|verification|[Turpeinen 2013](#5-references)| 
-| 13| po, tab, fed, sd |plasma|verification|[Weber 1999](#5-references)| 
+| 13| po, tab, fed, sd |plasma|verification|[Weber 1999](#5-references)|
 | 15| po, tab, fasted, sd |plasma|verification|[Schwartz 2009](#5-references)| 
 | 20| po, tab, fasted, sd |plasma|verification|[Ouellet 2006](#5-references)| 
 | 25| po, tab, fasted, sd |plasma|verification|[Almeida 2008](#5-references)| 
-| 25| po, tab, fasted, sd |plasma|verification|[Dingemande 2013](#5-references)| 
+| 25| po, tab, fasted, sd |plasma|verification|[Dingemanse 2013](#5-references)| 
 | 25| po, tab, fasted, sd |plasma|verification|[He 2007](#5-references)| 
 | 25| po, tab, fasted, sd |plasma|verification|[Macha 2013](#5-references)| 
 | 25| po, tab, fasted, sd |plasma|verification|[Malhotra 2011](#5-references)| 
