@@ -128,52 +128,52 @@
         "AllPlots": [
             {
                 "Project": "S-Warfarin",
-                "Simulation": "7.5 mg Single Dose S warfarin fed",
+                "Simulation": "Warfarin Na 7.5mg (S- 3.75mg) fasted",
                 "SectionReference": "ct-profiles"
             },
             {
                 "Project": "S-Warfarin",
-                "Simulation": "10 mg Single Dose fasted",
+                "Simulation": "Warfarin Na 10mg (S- 5mg) fasted",
                 "SectionReference": "ct-profiles"
             },
             {
                 "Project": "S-Warfarin",
-                "Simulation": "13 mg Single Dose",
+                "Simulation": "Warfarin 26mg (S- 13mg) fed",
                 "SectionReference": "ct-profiles"
             },
             {
                 "Project": "S-Warfarin",
-                "Simulation": "15 mg Single Dose fasted",
+                "Simulation": "Warfarin 30mg (S- 15mg) fasted",
                 "SectionReference": "ct-profiles"
             },
             {
                 "Project": "S-Warfarin",
-                "Simulation": "20 mg Single Dose fasted",
+                "Simulation": "Warfarin Na 20mg (S- 10mg) fasted",
                 "SectionReference": "ct-profiles"
             },
             {
                 "Project": "R-Warfarin",
-                "Simulation": "25 mg Single Dose R warfarin fasted",
+                "Simulation": "Warfarin Na 25mg (R- 12.5mg) fasted",
                 "SectionReference": "ct-profiles"
             },
             {
                 "Project": "S-Warfarin",
-                "Simulation": "25 mg Single Dose S warfarin fasted",
+                "Simulation": "Warfarin Na 25mg (S- 12.5mg) fasted",
                 "SectionReference": "ct-profiles"
             },
             {
                 "Project": "S-Warfarin",
-                "Simulation": "25 mg Single Dose S warfarin fed",
+                "Simulation": "Warfarin Na 25mg (S-12.5mg) fed",
                 "SectionReference": "ct-profiles"
             },
             {
                 "Project": "S-Warfarin",
-                "Simulation": "30 mg Single Dose S warfarin fed",
+                "Simulation": "Warfarin Na 30mg (S- 15mg) fasted",
                 "SectionReference": "ct-profiles"
             },
             {
                 "Project": "S-Warfarin",
-                "Simulation": "IV 0.375",
+                "Simulation": "S-Warfarin 0.375mg/kg",
                 "SectionReference": "ct-profiles"
             }
         ],
@@ -197,16 +197,29 @@
                         "OutputMappings": [
                             {
                                 "Project": "S-Warfarin",
-                                "Simulation": "25 mg Single Dose S warfarin fed",
+                                "Simulation": "Warfarin Na 25mg (S-12.5mg) fed",
                                 "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Soon_2006_25mg_SD_S_fed",
                                 "Color": "#816B5E"
                             },
                             {
                                 "Project": "S-Warfarin",
-                                "Simulation": "15 mg Single Dose fasted",
+                                "Simulation": "Warfarin 30mg (S- 15mg) fasted",
                                 "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Schwartz_2008_15mg_S_Fasted",
+                                "Color": "#816B5E"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "S-Warfarin IV Administration (model verification)",
+                        "Symbol": "Circle",
+                        "OutputMappings": [
+                            {
+                                "Project": "S-Warfarin",
+                                "Simulation": "S-Warfarin 0.375mg/kg",
+                                "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "O'Sullivan_1993_0.375mgkg_IV_S",
                                 "Color": "#816B5E"
                             }
                         ]
@@ -217,18 +230,54 @@
                         "OutputMappings": [
                             {
                                 "Project": "S-Warfarin",
-                                "Simulation": "10 mg Single Dose fasted",
+                                "Simulation": "Warfarin Na 7.5mg (S- 3.75mg) fasted",
                                 "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kim_2001_10mg_SD_S_fasted",
+                                "ObservedData": "Frymoyer_2010_7.5mg_SD_S_fed_3h",
                                 "Color": "#816B5E"
                             },
                             {
                                 "Project": "S-Warfarin",
-                                "Simulation": "10 mg Single Dose fasted",
+                                "Simulation": "Warfarin Na 10mg (S- 5mg) fasted",
                                 "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kim_2001_10mg_SD_S_fasted",
+                                "ObservedData": ["Kim_2001_10mg_SD_S_fasted",
+                                "Turpeinen_2013_10mg_S",
+                                "Lilja_2007_10mg_S_fasted",
+                                "Ngo_2010_10mg_S_fasted"
+                            ],
+                                "Color": "#816B5E"
+                            },                    
+                            {                
+                                "Project": "S-Warfarin",
+                                "Simulation": "Warfarin Na 20mg (S- 10mg) fasted",
+                                "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Ouellet_2006_20mg_S_fasted",
                                 "Color": "#816B5E"
                             },
+                            {
+                                "Project": "S-Warfarin",
+                                "Simulation": "Warfarin Na 25mg (S- 12.5mg) fasted",
+                                "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": ["Rahimy_2002_25mg_SD_S_fasted",
+                                "Almeida_2008_25mg_S_fasted",
+                                "Dingemanse_2013_25mg_S_fasted",
+                                "He_2007_25mg_S_fasted",
+                                "Macha_2013_25mg_SD_S_fasted",
+                                "Malhotra_2011_25mg_S_fasted",
+                                "Sanwald-Ducray_2014_25mg_SD_S_fasted",
+                                "Stockis_2013_25mg_S_fasted",
+                                "Toon_1987_25mg_S_fasted",
+                                "Toon_1990_25mg_S_fasted"
+
+                            ],
+                                "Color": "#816B5E"
+                            },
+                            {
+                                "Project": "S-Warfarin",
+                                "Simulation": "Warfarin 30mg (S- 15mg) fasted",
+                                "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Schwartz_2009_15_mg_S_fasted",
+                                "Color": "#816B5E"
+                            }
                         ]
                     },
                     {
@@ -237,9 +286,20 @@
                         "OutputMappings": [
                             {
                                 "Project": "S-Warfarin",
-                                "Simulation": "10 mg Single Dose fasted",
+                                "Simulation": "Warfarin Na 25mg (S-12.5mg) fed",
                                 "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kim_2001_10mg_SD_S_fasted",
+                                "ObservedData": ["Soon_2006_25mg_SD_S_fed",
+                                "Mallikaarjun_1999_25mg_SD_S_fed",
+                                "Yin_2011_25mg_SD_S_fed",
+                                "Sidharta_2014_25mg_S_fed"
+                            ],
+                                "Color": "#816B5E"
+                            },
+                            {
+                                "Project": "S-Warfarin",
+                                "Simulation": "Warfarin 26mg (S- 13mg) fed",
+                                "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Weber_1999_13 mg_S_Fed",
                                 "Color": "#816B5E"
                             }
                         ]
@@ -265,71 +325,22 @@
                         "OutputMappings": [
                             {
                                 "Project": "R-Warfarin",
-                                "Simulation": "25 mg Single Dose R warfarin fasted",
+                                "Simulation": "Warfarin Na 25mg (R- 12.5mg) fasted",
                                 "Output": "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Almeida_2008_25mg_R_fasted",
-                                "Color": "#816B5E"
-                            },
-                            {
-                                "Project": "R-Warfarin",
-                                "Simulation": "25 mg Single Dose R warfarin fasted",
-                                "Output": "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Dingemanse_2013_25mg_R_fasted",
-                                "Color": "#816B5E"
-                            },
-                            {
-                                "Project": "R-Warfarin",
-                                "Simulation": "25 mg Single Dose R warfarin fasted",
-                                "Output": "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "He_2007_25mg_R_fasted",
-                                "Color": "#816B5E"
-                            },
-                            {
-                                "Project": "R-Warfarin",
-                                "Simulation": "25 mg Single Dose R warfarin fasted",
-                                "Output": "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Malhotra_2011_25mg_R_fasted",
-                                "Color": "#816B5E"
-                            },
-                            {
-                                "Project": "R-Warfarin",
-                                "Simulation": "25 mg Single Dose R warfarin fasted",
-                                "Output": "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Stockis_2013_25mg_R_fasted",
-                                "Color": "#816B5E"
-                            },
-                            {
-                                "Project": "R-Warfarin",
-                                "Simulation": "25 mg Single Dose R warfarin fasted",
-                                "Output": "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rahimy_2002_25mg_SD_R_fasted",
-                                "Color": "#816B5E"
-                            },
-                            {
-                                "Project": "R-Warfarin",
-                                "Simulation": "25 mg Single Dose R warfarin fasted",
-                                "Output": "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Toon_1987_25mg_R_fasted",
-                                "Color": "#816B5E"
-                            },
-                            {
-                                "Project": "R-Warfarin",
-                                "Simulation": "25 mg Single Dose R warfarin fasted",
-                                "Output": "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Toon_1990_25mg_R_fasted",
-                                "Color": "#816B5E"
-                            },
-                            {
-                                "Project": "R-Warfarin",
-                                "Simulation": "25 mg Single Dose R warfarin fasted",
-                                "Output": "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Yin_2011_25mg_SD_R_fed",
+                                "ObservedData": ["Almeida_2008_25mg_R_fasted",
+                                 "Dingemanse_2013_25mg_R_fasted",
+                                 "He_2007_25mg_R_fasted",
+                                 "Malhotra_2011_25mg_R_fasted",
+                                 "Rahimy_2002_25mg_SD_R_fasted",
+                                 "Toon_1987_25mg_R_fasted",
+                                  "Toon_1990_25mg_R_fasted",
+                                   "Yin_2011_25mg_SD_R_fed"],
                                 "Color": "#816B5E"
                             }
                         ]
                     }
                 ]
-            },
+            }
         ],
         "ComparisonTimeProfilePlots": [],
         "DDIRatioPlots": [],
