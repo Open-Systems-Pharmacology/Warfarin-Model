@@ -1,6 +1,6 @@
 ### Absorption <a id="model-parameters-and-assumptions-absorption"></a>
 
-The measured solubility of Warfarin was taken from Product information from X (see [Section 2.2.1](#invitro-and-physico-chemical-data)).
+The measured solubility of Warfarin was taken from Product information from [Drugbank](#main-references) (see [Section 2.2.1](#invitro-and-physico-chemical-data)).
 
 Tablet dissolution was modeled using an empirical Weibull dissolution approach. Both enantiomer share the same absorption processes.
 
@@ -10,14 +10,13 @@ After testing the available organ-plasma partition coefficient and cell permeabi
 
 ### Metabolism and Elimination <a id="model-parameters-and-assumptions-metabolism-and-elimination"></a>
 
-
-Clearance of warfarin was described exclusively through enzymatic and reductive pathways, with only a negligible contribution from renal excretion of unchanged parent drug. No unspecific hepatic clearance terms were used. The stereospecific nature of warfarin metabolism was explicitly represented by modeling the two enantiomers separately, with different sets of enzymes responsible for their elimination.
+Clearance of warfarin was described through enzymatic and reductive pathways, with only a negligible contribution from renal excretion of unchanged parent drug. The stereospecific nature of warfarin metabolism was explicitly represented by modeling the two enantiomers separately, with different sets of enzymes responsible for their elimination.
 
 For **S-warfarin**, metabolism is dominated by CYP2C9, which is the principal enzyme responsible for oxidative clearance. 
 A smaller contribution from CYP3A4 was also included, together accounting for the observed in-vivo clearance. 
-In addition, a reductive pathway leading to alcohol metabolites was implemented, using literature-based plasma clearance values and a blood-to-plasma ratio of 0.55. 
-The renal elimination of unchanged S-warfarin was parameterized but remains negligible, consistent with clinical evidence. 
-Kinetic constants for CYP2C9 and CYP3A4 were taken from in-vitro studies and the associated kcat were optimized within the current model to achieve agreement with observed plasma concentrations, resulting in final values of approximately 0.20 min⁻¹ for CYP2C9 and 0.09 min⁻¹ for CYP3A4. 
+In addition, a reductive pathway leading to alcohol metabolites was implemented, using literature-based plasma clearance values and a blood-to-plasma ratio of 0.55 [Wittkowsky 2003](#5-references), leading to a hepatic `Specific Clearance` of 0.02 1/min. 
+The renal elimination of unchanged S-warfarin was parameterized but remains negligible, consistent with clinical evidence of ~ 1% fraction excreted in urine [FDA 2010](#main-references). 
+Kinetic constants for CYP2C9 and CYP3A4 were taken from in-vitro studies and the associated `Kcat` were optimized within the current model to achieve agreement with observed plasma concentrations, resulting in final values of approximately 0.20 min⁻¹ for CYP2C9 and 0.09 min⁻¹ for CYP3A4. 
 These optimized values reflect the dominant role of CYP2C9 and the minor but non-negligible contribution of CYP3A4 to the overall clearance of the S-enantiomer.
 
 The clearance of **R-warfarin** was represented by three oxidative enzymes—CYP1A2, CYP2C19, and CYP3A4—together with the same reductive alcohol pathway and minor renal clearance. 
@@ -25,14 +24,13 @@ Experimental information on kinetic constants for R-warfarin is less abundant, a
 The values for the Michaelis–Menten constants are relatively high (Km values of 648 µM for CYP1A2, 391 µM for CYP2C19, and 586 µM for CYP3A4), which indicates a low affinity of these enzymes for R-warfarin. 
 The reduction to alcohols and renal clearance contribute only marginally to the overall disposition of the R-enantiomer.
 
-
 ### Automated Parameter Identification <a id="model-parameters-and-assumptions-parameter-identification"></a>
 
 This is the result of the final parameter identification.
 
 | Model Parameter      | Optimized Value | Unit |
 | -------------------- | --------------- | ---- |
-| `S-Warfarin CYP2C9 kcat` |          0.2       |   1/min   |
+| `S-Warfarin CYP2C9 kcat` |         0.2       |   1/min   |
 | `S-warfarin CYP3A4 kcat` |        0.09         |  1/min    |
 
 
