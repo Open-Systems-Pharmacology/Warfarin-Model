@@ -1,8 +1,20 @@
 # Warfarin-Model
+Whole-body PBPK model of Warfarin. 
 
-<b>Cave: experimental use only.</b><br>
-Imported from PK-Sim 6.<br>
-Model evaluation and verification is pending.
+## Repository files
+This repository contains:
+
+- a PK-Sim snapshot (*.json) file of the current whole-body PBPK model of warfarin
+- static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
+- an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
+  
+The model was developed and evaluated for S-Warfarin and R-Warfarin using data from several clinical studies. 
+For S-Warfarin, the model was developed and evaluated against IV administration (0.375 mg/kg) and oral administration (dosing range of Warfarin 7.5 mg to 30 mg in the fasted state (equivalent to 3.75 mg to 15 mg of S-Warfarin), and 25-26 mg (equivalent to 12.5-13 mg of S-Warfarin) in the fed state). 
+For R-Warfarin, the model was developed and evaluated against oral administration (dosing range of Warfarin 25 mg in the fasted state(equivalent to 12.5 mg of S-Warfarin)). 
+
+The PK-Sim snapshot file contains simulations and the observed data of all clinical studies used for model development and evaluation. 
+
+<b>Cave: No experimental values were found for R-Warfarin metabolism, therefore, values were kept from the previous PK-SIM project </b><br>
 
 ## Code of conduct
 
@@ -11,5 +23,3 @@ Everyone interacting in the Open Systems Pharmacology community (codebases, issu
 ## Contribution
 
 We encourage contribution to the Open Systems Pharmacology community. Before getting started please read the [contribution guidelines](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CONTRIBUTING.md#ways-to-contribute). If you are contributing code, please be familiar with the [coding standard](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODING_STANDARDS.md#visual-studio-settings).
-
-## License
