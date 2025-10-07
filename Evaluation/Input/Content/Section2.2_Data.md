@@ -95,7 +95,7 @@ The following studies were used for model verification:
 | 25| po, tab, fasted, sd |plasma|verification|[Malhotra 2011](#5-references)| 
 | 25| po, tab, fasted, sd |plasma|verification|[Rahimy 2002](#5-references)| 
 | 25| po, tab, fasted, sd |plasma|verification|[Stockis 2013](#5-references)| 
-| 25| po, tab, fasted, sd |plasma|verification|[Toon 2087](#5-references)| 
+| 25| po, tab, fasted, sd |plasma|verification|[Toon 1987](#5-references)| 
 | 25| po, tab, fasted, sd |plasma|verification|[Toon 1990](#5-references)| 
 | 25| po, tab, fed, sd |plasma|verification|[Mallikaarjun 1999](#5-references)| 
 | 25| po, tab, fed, sd |plasma|verification|[Sidharta 2014](#5-references)| 
