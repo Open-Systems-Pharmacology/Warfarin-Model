@@ -37,7 +37,7 @@ A literature search was performed to collect available information on physicoche
 
 A literature search was performed to collect available clinical data on Warfarin in healthy adults.
 
-#### Model Building S-Warafin <a id="model-building"></a>
+#### Model Building S-Warfarin <a id="model-building"></a>
 
 The following studies were used for model building (training data):
 
