@@ -90,7 +90,7 @@ The following studies were used for model verification:
 | **Dose [mg]** | **Dosing** | **PK data** |**Dataset**| **Reference** |
 | --------------- | ------------------- | ----------------------- | ----------------- |----------------- |
 | 25| po, tab, fasted, sd |plasma|verification|[Almeida 2008](#5-references)| 
-| 25| po, tab, fasted, sd |plasma|verification|[Dingemande 2013](#5-references)| 
+| 25| po, tab, fasted, sd |plasma|verification|[Dingemanse 2013](#5-references)| 
 | 25| po, tab, fasted, sd |plasma|verification|[He 2007](#5-references)| 
 | 25| po, tab, fasted, sd |plasma|verification|[Malhotra 2011](#5-references)| 
 | 25| po, tab, fasted, sd |plasma|verification|[Rahimy 2002](#5-references)| 
