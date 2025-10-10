@@ -1,5 +1,5 @@
 {
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.1/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.4/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "S-Warfarin",
@@ -213,14 +213,14 @@
                     },
                     {
                         "Caption": "S-Warfarin IV Administration (model verification)",
-                        "Symbol": "Circle",
+                        "Symbol": "Triangle",
                         "OutputMappings": [
                             {
                                 "Project": "S-Warfarin",
                                 "Simulation": "S-Warfarin 0.375mg/kg",
                                 "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "O'Sullivan_1993_0.375mgkg_IV_S",
-                                "Color": "#816B5E"
+                                "Color": "#FF0000"
                             }
                         ]
                     },
@@ -233,7 +233,7 @@
                                 "Simulation": "Warfarin Na 7.5mg (S- 3.75mg) fasted",
                                 "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Frymoyer_2010_7.5mg_SD_S_fed_3h",
-                                "Color": "#816B5E"
+                                "Color": "#000080"
                             },
                             {
                                 "Project": "S-Warfarin",
@@ -244,14 +244,14 @@
                                 "Lilja_2007_10mg_S_fasted",
                                 "Ngo_2010_10mg_S_fasted"
                             ],
-                                "Color": "#816B5E"
+                                "Color": "#000080"
                             },                    
                             {                
                                 "Project": "S-Warfarin",
                                 "Simulation": "Warfarin Na 20mg (S- 10mg) fasted",
                                 "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Ouellet_2006_20mg_S_fasted",
-                                "Color": "#816B5E"
+                                "Color": "#000080"
                             },
                             {
                                 "Project": "S-Warfarin",
@@ -267,22 +267,21 @@
                                 "Stockis_2013_25mg_S_fasted",
                                 "Toon_1987_25mg_S_fasted",
                                 "Toon_1990_25mg_S_fasted"
-
                             ],
-                                "Color": "#816B5E"
+                                "Color": "#000080"
                             },
                             {
                                 "Project": "S-Warfarin",
                                 "Simulation": "Warfarin 30mg (S- 15mg) fasted",
                                 "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Schwartz_2009_15_mg_S_fasted",
-                                "Color": "#816B5E"
+                                "Color": "#000080"
                             }
                         ]
                     },
                     {
                         "Caption": "S-Warfarin Oral Administration fed (model verification)",
-                        "Symbol": "Triangle",
+                        "Symbol": "Diamond",
                         "OutputMappings": [
                             {
                                 "Project": "S-Warfarin",
@@ -293,14 +292,14 @@
                                 "Yin_2011_25mg_SD_S_fed",
                                 "Sidharta_2014_25mg_S_fed"
                             ],
-                                "Color": "#816B5E"
+                                "Color": "#008000"
                             },
                             {
                                 "Project": "S-Warfarin",
                                 "Simulation": "Warfarin 26mg (S- 13mg) fed",
                                 "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Weber_1999_13 mg_S_Fed",
-                                "Color": "#816B5E"
+                                "Color": "#008000"
                             }
                         ]
                     }
@@ -403,14 +402,14 @@
                     "Content": "Content/GOF_diagnostics.md"
                 },
                 {
-                    "Reference": "ct-profiles",
-                    "Title": "Concentration-Time Profiles",
-                    "Content": "Content/Concentration_time_profiles.md"
-                },
-                {
                     "Reference": "diagnostics-plots-R-Warfarin",
                     "Title": "Diagnostics Plots R-warfarin",
                     "Content": "Content/GOF_diagnostics.md"
+                },
+                {
+                    "Reference": "ct-profiles",
+                    "Title": "Concentration-Time Profiles",
+                    "Content": "Content/Concentration_time_profiles.md"
                 }
             ]
         },
