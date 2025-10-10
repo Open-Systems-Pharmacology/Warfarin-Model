@@ -90,6 +90,7 @@ The following studies were used for model verification:
 
 | **Dose [mg]** | **Dosing** | **PK data** |**Dataset**| **Reference** |
 | --------------- | ------------------- | ----------------------- | ----------------- |----------------- |
+<<<<<<< HEAD
 | 25| po, tab, fasted, sd |plasma|verification|[Almeida 2008](#main-references)| 
 | 25| po, tab, fasted, sd |plasma|verification|[Dingemande 2013](#5-references)| 
 | 25| po, tab, fasted, sd |plasma|verification|[He 2007](#main-references)| 
@@ -102,5 +103,19 @@ The following studies were used for model verification:
 | 25| po, tab, fed, sd |plasma|verification|[Sidharta 2014](#main-references)| 
 | 25| po, tab, fed, sd |plasma|verification|[Soon 2006](#main-references)| 
 | 25| po, tab, fed, sd |plasma|verification|[Yin 2011](#main-references)| 
+=======
+| 25| po, tab, fasted, sd |plasma|verification|[Almeida 2008](#5-references)| 
+| 25| po, tab, fasted, sd |plasma|verification|[Dingemanse 2013](#5-references)| 
+| 25| po, tab, fasted, sd |plasma|verification|[He 2007](#5-references)| 
+| 25| po, tab, fasted, sd |plasma|verification|[Malhotra 2011](#5-references)| 
+| 25| po, tab, fasted, sd |plasma|verification|[Rahimy 2002](#5-references)| 
+| 25| po, tab, fasted, sd |plasma|verification|[Stockis 2013](#5-references)| 
+| 25| po, tab, fasted, sd |plasma|verification|[Toon 1987](#5-references)| 
+| 25| po, tab, fasted, sd |plasma|verification|[Toon 1990](#5-references)| 
+| 25| po, tab, fed, sd |plasma|verification|[Mallikaarjun 1999](#5-references)| 
+| 25| po, tab, fed, sd |plasma|verification|[Sidharta 2014](#5-references)| 
+| 25| po, tab, fed, sd |plasma|verification|[Soon 2006](#5-references)| 
+| 25| po, tab, fed, sd |plasma|verification|[Yin 2011](#5-references)| 
+>>>>>>> c4bac1efd21d652db42ed9b81ab341fed3579aca
 
 iv = intravenous; po = oral administration; tab = tablet administration; sd = single dose; qd = once daily
