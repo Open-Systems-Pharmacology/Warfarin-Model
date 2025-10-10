@@ -3,7 +3,7 @@ The PBPK model for Warfarin, was developed and verified with clinical pharmacoki
 The model was evaluated covering data from studies including in particular
 
 * Intravenous Bolus
-* Oral administration over fed and fasted states.
+* Oral administration over fasted and fed states.
 
 
 The next sections show:

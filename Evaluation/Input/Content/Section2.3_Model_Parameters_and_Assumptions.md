@@ -16,13 +16,10 @@ For **S-warfarin**, metabolism is dominated by CYP2C9, which is the principal en
 A smaller contribution from CYP3A4 was also included, together accounting for the observed in-vivo clearance. 
 In addition, a reductive pathway leading to alcohol metabolites was implemented, using literature-based plasma clearance values and a blood-to-plasma ratio of 0.55 [Wittkowsky 2003](#5-references), leading to a hepatic `Specific Clearance` of 0.02 1/min. 
 The renal elimination of unchanged S-warfarin was parameterized but remains negligible, consistent with clinical evidence of ~ 1% fraction excreted in urine [FDA 2010](#main-references). 
-Kinetic constants for CYP2C9 and CYP3A4 were taken from in-vitro studies and the associated `Kcat` were optimized within the current model to achieve agreement with observed plasma concentrations, resulting in final values of approximately 0.20 min⁻¹ for CYP2C9 and 0.09 min⁻¹ for CYP3A4. 
-These optimized values reflect the dominant role of CYP2C9 and the minor but non-negligible contribution of CYP3A4 to the overall clearance of the S-enantiomer.
+Kinetic constants for CYP2C9 and CYP3A4 were taken from in-vitro studies and the associated `Kcat` were optimized within the current model to achieve agreement with observed plasma concentrations. These optimized values reflect the dominant role of CYP2C9 and the minor but non-negligible contribution of CYP3A4 to the overall clearance of the S-enantiomer.
 
 The clearance of **R-warfarin** was represented by three oxidative enzymes—CYP1A2, CYP2C19, and CYP3A4—together with the same reductive alcohol pathway and minor renal clearance. 
-Experimental information on kinetic constants for R-warfarin is less abundant, and therefore the Km and Vmax values were adopted from a previously developed PBPK model in PK-Sim. 
-The values for the Michaelis–Menten constants are relatively high (Km values of 648 µM for CYP1A2, 391 µM for CYP2C19, and 586 µM for CYP3A4), which indicates a low affinity of these enzymes for R-warfarin. 
-The reduction to alcohols and renal clearance contribute only marginally to the overall disposition of the R-enantiomer.
+Experimental information on kinetic constants for R-warfarin is less abundant, and therefore the Km and Vmax values were adopted from a previously developed PBPK model in PK-Sim. The values for the Michaelis–Menten constants are relatively high (Km values of 648 µM for CYP1A2, 391 µM for CYP2C19, and 586 µM for CYP3A4), which indicates a low affinity of these enzymes for R-warfarin. The reduction to alcohols and renal clearance contribute only marginally to the overall disposition of the R-enantiomer.
 
 ### Automated Parameter Identification <a id="model-parameters-and-assumptions-parameter-identification"></a>
 
@@ -30,7 +27,8 @@ This is the result of the final parameter identification.
 
 | Model Parameter      | Optimized Value | Unit |
 | -------------------- | --------------- | ---- |
-| `S-Warfarin CYP2C9 kcat` |         0.2       |   1/min   |
-| `S-warfarin CYP3A4 kcat` |        0.09         |  1/min    |
+| `Intestinal permeability (transcellular)` |0.0015|cm/min|
+| `S-Warfarin CYP2C9 kcat` |0.2|1/min|
+| `S-warfarin CYP3A4 kcat` |0.09|1/min|
 
 
