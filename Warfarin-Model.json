@@ -1,5 +1,5 @@
 {
-  "Version": 80,
+  "Version": 79,
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -356,6 +356,19 @@
                 "Source": "Internet",
                 "Description": "DrugBank (Tomlin 1997)"
               }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "fitted",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 0.0015,
+              "Unit": "cm/min"
             }
           ]
         }
@@ -924,335 +937,6 @@
   ],
   "Simulations": [
     {
-      "Name": "Warfarin Na 25mg (R- 12.5mg) fasted",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Almeida_2008_25mg_R_fasted",
-        "Dingemanse_2013_25mg_R_fasted",
-        "He_2007_25mg_R_fasted",
-        "Malhotra_2011_25mg_R_fasted",
-        "Stockis_2013_25mg_R_fasted",
-        "Rahimy_2002_25mg_SD_R_fasted",
-        "Toon_1987_25mg_R_fasted",
-        "Toon_1990_25mg_R_fasted"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 170.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|25 mg warfarin sodium (12.5 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Undefined Liver|Reference concentration",
-          "Value": 1.0,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (liver)",
-          "Value": 2160.0,
-          "Unit": "min"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Almeida_2008_25mg_R_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Dingemanse_2013_25mg_R_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Malhotra_2011_25mg_R_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "He_2007_25mg_R_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Rahimy_2002_25mg_SD_R_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Stockis_2013_25mg_R_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Toon_1987_25mg_R_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Toon_1990_25mg_R_fasted"
-        }
-      ],
-      "Individual": "Standard Male",
-      "Compounds": [
-        {
-          "Name": "R-Warfarin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - Charge dependent Schmitt"
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "CYP2C9"
-            },
-            {
-              "Name": "CYP2C19-HLM Mean",
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "Name": "CYP1A2-HLM Mean",
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP3A4-HLM Mean",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "Total Hepatic Clearance-Reduction to alcohols",
-              "SystemicProcessType": "Hepatic"
-            },
-            {
-              "Name": "Renal Clearances-Urine excretion data (Heimark, Toon, O'Reilly)",
-              "SystemicProcessType": "Renal"
-            }
-          ],
-          "Protocol": {
-            "Name": "25 mg warfarin sodium (12.5 mg each enantiomer)",
-            "Formulations": [
-              {
-                "Name": "Weibull (Coumadin)",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.01,
-              "Max": 5.668297,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "R-Warfarin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Almeida_2008_25mg_R_fasted-R-Warfarin-Measurement",
-              "X": "Almeida_2008_25mg_R_fasted|Time",
-              "Y": "Almeida_2008_25mg_R_fasted|ObservedData|||R-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Dingemanse_2013_25mg_R_fasted-R-Warfarin-Measurement",
-              "X": "Dingemanse_2013_25mg_R_fasted|Time",
-              "Y": "Dingemanse_2013_25mg_R_fasted|ObservedData|||R-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "He_2007_25mg_R_fasted-R-Warfarin-Measurement",
-              "X": "He_2007_25mg_R_fasted|Time",
-              "Y": "He_2007_25mg_R_fasted|ObservedData|||R-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#FF00FF",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Malhotra_2011_25mg_R_fasted-R-Warfarin-Measurement",
-              "X": "Malhotra_2011_25mg_R_fasted|Time",
-              "Y": "Malhotra_2011_25mg_R_fasted|ObservedData|||R-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#FF8000",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Stockis_2013_25mg_R_fasted-R-Warfarin-Measurement",
-              "X": "Stockis_2013_25mg_R_fasted|Time",
-              "Y": "Stockis_2013_25mg_R_fasted|ObservedData|||R-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 8,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Rahimy_2002_25mg_SD_R_fasted-R-Warfarin-Measurement",
-              "X": "Rahimy_2002_25mg_SD_R_fasted|Time",
-              "Y": "Rahimy_2002_25mg_SD_R_fasted|ObservedData|||R-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#C000C0",
-                "LegendIndex": 7,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Toon_1987_25mg_R_fasted-R-Warfarin-Measurement",
-              "X": "Toon_1987_25mg_R_fasted|Time",
-              "Y": "Toon_1987_25mg_R_fasted|ObservedData|||R-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#C04000",
-                "LegendIndex": 9,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Toon_1990_25mg_R_fasted-R-Warfarin-Measurement",
-              "X": "Toon_1990_25mg_R_fasted|Time",
-              "Y": "Toon_1990_25mg_R_fasted|ObservedData|||R-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#00FF00",
-                "LegendIndex": 10,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "Bottom",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "Title": "Warfarin Na 25mg (R-Warfarin 12.5mg) POfasted",
-          "OriginText": "Warfarin-Model-MG10325_Modified Rwarf\nWarfarin Na 25mg (R- 12.5mg) fasted\n2025-10-03 18:42"
-        }
-      ]
-    },
-    {
       "Name": "Warfarin 26mg (S- 13mg) fed",
       "Model": "4Comp",
       "ObservedData": [
@@ -1304,7 +988,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|13 mg warfarin PO|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|13 mg warfarin PO|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -1517,7 +1201,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|15 mg warfarin PO|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|15 mg warfarin PO|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -1736,7 +1420,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|20 mg warfarin sodium (10 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|20 mg warfarin sodium (10 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -1939,7 +1623,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|7.5 mg warfarin sodium (3.75mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|7.5 mg warfarin sodium (3.75mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2097,7 +1781,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "Title": "Warfarin Na 7.5mg (S-Warfarin 3.75mg) fasted",
+          "Title": "Warfarin Na 7.5mg (S-Warfarin 3.75mg) fasted + meal post-dose ",
           "OriginText": "Warfarin-Model-MG10325\n7.5 mg Single Dose S warfarin fed\n2025-10-03 15:55"
         }
       ]
@@ -2346,7 +2030,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|30 mg warfarin sodium (15 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|30 mg warfarin sodium (15 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2504,7 +2188,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "Title": "Warfarin 7.5mg (S-Warfarin 15mg) PO fasted",
+          "Title": "Warfarin 7.5mg (S-Warfarin 15mg) PO fasted + meal post-dose ",
           "OriginText": "Warfarin-Model-MG10325\nWarfarin Na 30mg (S- 15mg) fasted\n2025-10-03 16:57"
         }
       ]
@@ -2564,7 +2248,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|25 mg warfarin sodium (12.5 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|25 mg warfarin sodium (12.5 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2695,6 +2379,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2843,7 +2528,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|25 mg warfarin sodium (12.5 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|25 mg warfarin sodium (12.5 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2995,6 +2680,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3203,7 +2889,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|10 mg warfarin sodium (5 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|10 mg warfarin sodium (5 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -3399,6 +3085,350 @@
           },
           "Title": "Warfarin 10mg (S-Warfarin 5mg) PO fasted",
           "OriginText": "Warfarin-Model\n10 mg S-Warfarin fasted Turpeinen 2013\n2025-10-03 15:33"
+        }
+      ]
+    },
+    {
+      "Name": "Warfarin Na 25mg (R- 12.5mg) fasted",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Almeida_2008_25mg_R_fasted",
+        "Dingemanse_2013_25mg_R_fasted",
+        "He_2007_25mg_R_fasted",
+        "Malhotra_2011_25mg_R_fasted",
+        "Stockis_2013_25mg_R_fasted",
+        "Rahimy_2002_25mg_SD_R_fasted",
+        "Toon_1987_25mg_R_fasted",
+        "Toon_1990_25mg_R_fasted"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 170.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|25 mg warfarin sodium (12.5 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "R-Warfarin|Intestinal permeability (transcellular)",
+          "Value": 0.0015,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Almeida_2008_25mg_R_fasted"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Dingemanse_2013_25mg_R_fasted"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Malhotra_2011_25mg_R_fasted"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "He_2007_25mg_R_fasted"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Rahimy_2002_25mg_SD_R_fasted"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Stockis_2013_25mg_R_fasted"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Toon_1987_25mg_R_fasted"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Toon_1990_25mg_R_fasted"
+        }
+      ],
+      "Individual": "Standard Male",
+      "Compounds": [
+        {
+          "Name": "R-Warfarin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP2C19-HLM Mean",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "CYP1A2-HLM Mean",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP3A4-HLM Mean",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Reduction to alcohols",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Renal Clearances-Urine excretion data (Heimark, Toon, O'Reilly)",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "25 mg warfarin sodium (12.5 mg each enantiomer)",
+            "Formulations": [
+              {
+                "Name": "Weibull (Coumadin)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 5.668297,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "R-Warfarin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Almeida_2008_25mg_R_fasted-R-Warfarin-Measurement",
+              "X": "Almeida_2008_25mg_R_fasted|Time",
+              "Y": "Almeida_2008_25mg_R_fasted|ObservedData|||R-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Dingemanse_2013_25mg_R_fasted-R-Warfarin-Measurement",
+              "X": "Dingemanse_2013_25mg_R_fasted|Time",
+              "Y": "Dingemanse_2013_25mg_R_fasted|ObservedData|||R-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "He_2007_25mg_R_fasted-R-Warfarin-Measurement",
+              "X": "He_2007_25mg_R_fasted|Time",
+              "Y": "He_2007_25mg_R_fasted|ObservedData|||R-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Malhotra_2011_25mg_R_fasted-R-Warfarin-Measurement",
+              "X": "Malhotra_2011_25mg_R_fasted|Time",
+              "Y": "Malhotra_2011_25mg_R_fasted|ObservedData|||R-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Stockis_2013_25mg_R_fasted-R-Warfarin-Measurement",
+              "X": "Stockis_2013_25mg_R_fasted|Time",
+              "Y": "Stockis_2013_25mg_R_fasted|ObservedData|||R-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Rahimy_2002_25mg_SD_R_fasted-R-Warfarin-Measurement",
+              "X": "Rahimy_2002_25mg_SD_R_fasted|Time",
+              "Y": "Rahimy_2002_25mg_SD_R_fasted|ObservedData|||R-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#C000C0",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Toon_1987_25mg_R_fasted-R-Warfarin-Measurement",
+              "X": "Toon_1987_25mg_R_fasted|Time",
+              "Y": "Toon_1987_25mg_R_fasted|ObservedData|||R-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#C04000",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Toon_1990_25mg_R_fasted-R-Warfarin-Measurement",
+              "X": "Toon_1990_25mg_R_fasted|Time",
+              "Y": "Toon_1990_25mg_R_fasted|ObservedData|||R-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#00FF00",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Warfarin Na 25mg (R-Warfarin 12.5mg) PO fasted",
+          "OriginText": "Warfarin-Model\nWarfarin Na 25mg (R- 12.5mg) fasted\n2025-10-10 14:04"
         }
       ]
     }
@@ -4180,7 +4210,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -4301,7 +4331,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -4404,22 +4434,22 @@
                 "MolWeight": 308.33
               },
               "Values": [
-                308.2707,
-                221.8046,
-                172.9323,
-                146.6165,
-                131.5789,
-                146.6165,
-                154.1353,
-                139.097687,
-                105.2632,
-                90.22556,
-                75.18797,
-                56.39098,
-                52.63158
+                0.3082707,
+                0.2218046,
+                0.1729323,
+                0.1466165,
+                0.1315789,
+                0.1466165,
+                0.154135287,
+                0.139097691,
+                0.105263196,
+                0.09022556,
+                0.0751879662,
+                0.0563909821,
+                0.05263158
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -4512,22 +4542,22 @@
                 "MolWeight": 308.33
               },
               "Values": [
-                330.827118,
-                210.5264,
-                165.4135,
-                131.579,
-                142.857208,
-                154.1354,
-                176.6917,
-                161.6541,
-                124.060196,
-                116.5414,
-                93.98497,
-                71.42857,
-                45.11278
+                0.330827117,
+                0.210526392,
+                0.1654135,
+                0.131579,
+                0.142857209,
+                0.1541354,
+                0.1766917,
+                0.1616541,
+                0.124060191,
+                0.1165414,
+                0.09398498,
+                0.0714285746,
+                0.04511278
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -4634,7 +4664,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -4744,7 +4774,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -4864,7 +4894,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -4976,7 +5006,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "µg/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -5075,7 +5105,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "µg/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -5184,7 +5214,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -5300,7 +5330,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -5414,7 +5444,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -5521,7 +5551,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "µg/l"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -5614,7 +5644,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "µg/l"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -5819,7 +5849,7 @@
                 0.113852
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "µg/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -5919,7 +5949,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "µg/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -6028,7 +6058,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "µg/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -6139,7 +6169,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "µg/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -6252,7 +6282,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -6351,22 +6381,22 @@
                 "MolWeight": 308.33
               },
               "Values": [
-                439.312,
-                271.253,
-                165.1105,
-                112.0393,
-                97.2973,
-                58.96808,
-                79.60687,
-                70.76166,
-                64.86487,
-                67.81326,
-                47.17444,
-                41.27764,
-                29.48402
+                0.439312,
+                0.271253,
+                0.165110514,
+                0.112039305,
+                0.0972973,
+                0.05896808,
+                0.07960687,
+                0.07076166,
+                0.0648648739,
+                0.06781326,
+                0.04717444,
+                0.04127764,
+                0.02948402
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -6378,22 +6408,22 @@
             "MolWeight": 308.33
           },
           "Values": [
-            371.4987,
-            822.604431,
-            916.9533,
-            863.882,
-            881.572449,
-            630.9582,
-            607.371033,
-            427.5184,
-            365.60202,
-            297.7887,
-            188.6978,
-            123.832909,
-            85.50368
+            0.371498674,
+            0.8226044,
+            0.9169533,
+            0.863882,
+            0.8815725,
+            0.6309582,
+            0.607371032,
+            0.427518427,
+            0.365602046,
+            0.29778868,
+            0.1886978,
+            0.123832904,
+            0.08550368
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -6459,22 +6489,22 @@
                 "MolWeight": 308.33
               },
               "Values": [
-                485.853729,
-                295.6097,
-                196.0975,
-                134.634109,
-                128.7805,
-                128.7805,
-                143.4146,
-                134.6342,
-                143.4146,
-                102.439,
-                93.65854,
-                61.46341,
-                52.68293
+                0.485853732,
+                0.2956097,
+                0.196097508,
+                0.1346341,
+                0.1287805,
+                0.1287805,
+                0.1434146,
+                0.134634212,
+                0.1434146,
+                0.102439,
+                0.0936585441,
+                0.0614634119,
+                0.05268293
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -6567,25 +6597,25 @@
                 "MolWeight": 308.33
               },
               "Values": [
-                95.2381,
-                182.3129,
-                163.2653,
-                242.1769,
-                176.8707,
-                127.8911,
-                114.2858,
-                138.7755,
-                136.0544,
-                125.170006,
-                76.19049,
-                149.6599,
-                97.9591751,
-                78.91156,
-                78.91156,
-                57.14287
+                0.0952381,
+                0.1823129,
+                0.1632653,
+                0.24217689,
+                0.1768707,
+                0.1278911,
+                0.1142858,
+                0.1387755,
+                0.1360544,
+                0.12517,
+                0.07619049,
+                0.1496599,
+                0.0979591757,
+                0.0789115652,
+                0.0789115652,
+                0.0571428724
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -6597,25 +6627,25 @@
             "MolWeight": 308.33
           },
           "Values": [
-            106.1225,
-            204.0816,
-            541.4966,
-            1042.177,
-            1221.769,
-            1221.769,
-            1167.347,
-            1148.29907,
-            1080.272,
-            941.4966,
-            843.5374,
-            742.857056,
-            552.3809,
-            397.2789,
-            282.9932,
-            214.965988
+            0.1061225,
+            0.2040816,
+            0.5414966,
+            1.042177,
+            1.221769,
+            1.221769,
+            1.16734707,
+            1.148299,
+            1.080272,
+            0.941496551,
+            0.8435374,
+            0.7428571,
+            0.5523809,
+            0.3972789,
+            0.2829932,
+            0.214966
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -6684,23 +6714,23 @@
                 "MolWeight": 308.33
               },
               "Values": [
-                263.9456,
-                345.5782,
-                253.061188,
-                155.1021,
-                141.4966,
-                144.2177,
-                157.82309,
-                179.591888,
-                117.0068,
-                157.82309,
-                100.680305,
-                87.07483,
-                70.74829,
-                40.81633
+                0.26394558,
+                0.345578164,
+                0.253061175,
+                0.1551021,
+                0.1414966,
+                0.1442177,
+                0.1578231,
+                0.1795919,
+                0.1170068,
+                0.1578231,
+                0.100680307,
+                0.08707483,
+                0.07074829,
+                0.0408163331
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -6810,7 +6840,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "µg/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -6918,7 +6948,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "µg/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -7440,7 +7470,7 @@
                 0.0
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -7527,24 +7557,24 @@
                 "MolWeight": 308.33
               },
               "Values": [
-                274.61142,
-                326.4249,
-                279.7928,
-                178.7565,
-                217.616608,
-                160.6218,
-                150.2591,
-                142.487091,
-                147.6684,
-                116.5803,
-                95.85492,
-                85.49222,
-                69.94818,
-                59.5854874,
-                51.81348
+                0.2746114,
+                0.3264249,
+                0.2797928,
+                0.17875649,
+                0.2176166,
+                0.160621792,
+                0.150259092,
+                0.1424871,
+                0.1476684,
+                0.1165803,
+                0.09585492,
+                0.0854922161,
+                0.06994818,
+                0.05958549,
+                0.05181348
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -7641,23 +7671,23 @@
                 "MolWeight": 308.33
               },
               "Values": [
-                287.5648,
-                349.7409,
-                269.4301,
-                199.4818,
-                173.5752,
-                160.6218,
-                163.2124,
-                168.393692,
-                158.0311,
-                129.5337,
-                113.9896,
-                88.0829,
-                59.5854874,
-                44.04145
+                0.2875648,
+                0.3497409,
+                0.2694301,
+                0.199481785,
+                0.173575208,
+                0.160621792,
+                0.1632124,
+                0.1683937,
+                0.1580311,
+                0.129533708,
+                0.1139896,
+                0.0880829,
+                0.05958549,
+                0.04404145
               ],
               "Dimension": "Concentration (mass)",
-              "Unit": "ng/ml"
+              "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
@@ -7807,15 +7837,15 @@
     {
       "Name": "PO administration",
       "Classifiables": [
-        "Warfarin Na 25mg (R- 12.5mg) fasted",
         "Warfarin 26mg (S- 13mg) fed",
         "Warfarin 30mg (S- 15mg) fasted",
         "Warfarin Na 20mg (S- 10mg) fasted",
+        "Warfarin Na 7.5mg (S- 3.75mg) fasted",
+        "Warfarin Na 30mg (S- 15mg) fasted",
         "Warfarin Na 25mg (S-12.5mg) fed",
         "Warfarin Na 25mg (S- 12.5mg) fasted",
         "Warfarin Na 10mg (S- 5mg) fasted",
-        "Warfarin Na 30mg (S- 15mg) fasted",
-        "Warfarin Na 7.5mg (S- 3.75mg) fasted"
+        "Warfarin Na 25mg (R- 12.5mg) fasted"
       ]
     },
     {
