@@ -1,0 +1,1 @@
+The herein presented PBPK model adequately describes the pharmacokinetics of Warfarin in adults after iv and oral administration. Since S‑warfarin is the more potent enantiomer, its model development and verification were more extensive. If modeling of R‑warfarin becomes necessary in the future, additional work will be required.

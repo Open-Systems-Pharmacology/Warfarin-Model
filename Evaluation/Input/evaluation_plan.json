@@ -1,0 +1,432 @@
+{
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.4/OSP_Qualification_Plan_Schema.json",
+    "Projects": [
+        {
+            "Id": "S-Warfarin",
+            "Path": "../../Warfarin-Model.json",
+            "BuildingBlocks": [],
+            "SimulationParameters": []
+        },
+                {
+            "Id": "R-Warfarin",
+            "Path": "../../Warfarin-Model.json",
+            "BuildingBlocks": [],
+            "SimulationParameters": []
+        }
+    ],
+    "ObservedDataSets": [],
+    "Plots": {
+        "AxesSettings": {
+            "GOFMergedPlotsPredictedVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "µg/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "µg/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "GOFMergedPlotsResidualsOverTime": [
+                {
+                    "Type": "X",
+                    "Dimension": "Time",
+                    "Unit": "h",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "ComparisonTimeProfile": [
+                {
+                    "Type": "X",
+                    "Dimension": "Time",
+                    "Unit": "h",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "µg/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsPredictedVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsResidualsVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "PKRatioPlots": [
+                {
+                    "Type": "X",
+                    "Dimension": "Age",
+                    "Unit": "year(s)",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ]
+        },
+        "PlotSettings": {
+            "ChartWidth": 500,
+            "ChartHeight": 400,
+            "Fonts": {
+                "AxisSize": 11,
+                "LegendSize": 9,
+                "OriginSize": 9,
+                "FontFamilyName": "Arial",
+                "WatermarkSize": 40
+            }
+        },
+        "AllPlots": [
+            {
+                "Project": "S-Warfarin",
+                "Simulation": "Warfarin Na 7.5mg (S- 3.75mg) fasted",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "S-Warfarin",
+                "Simulation": "Warfarin Na 10mg (S- 5mg) fasted",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "S-Warfarin",
+                "Simulation": "Warfarin 26mg (S- 13mg) fed",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "S-Warfarin",
+                "Simulation": "Warfarin 30mg (S- 15mg) fasted",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "S-Warfarin",
+                "Simulation": "Warfarin Na 20mg (S- 10mg) fasted",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "R-Warfarin",
+                "Simulation": "Warfarin Na 25mg (R- 12.5mg) fasted",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "S-Warfarin",
+                "Simulation": "Warfarin Na 25mg (S- 12.5mg) fasted",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "S-Warfarin",
+                "Simulation": "Warfarin Na 25mg (S-12.5mg) fed",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "S-Warfarin",
+                "Simulation": "Warfarin Na 30mg (S- 15mg) fasted",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "S-Warfarin",
+                "Simulation": "S-Warfarin 0.375mg/kg",
+                "SectionReference": "ct-profiles"
+            }
+        ],
+        "GOFMergedPlots": [
+            {
+                "Title": "S-Warfarin Goodness of fit plot for concentration in plasma",
+                "SectionReference": "diagnostics-plots-S-Warfarin",
+                "Artifacts": [
+                    "Plot",
+                    "GMFE",
+                    "Measure"
+                ],
+                "PlotTypes": [
+                    "predictedVsObserved",
+                    "residualsOverTime"
+                ],
+                "Groups": [
+                    {
+                        "Caption": "S-Warfarin Oral Administration (model building)",
+                        "Symbol": "Circle",
+                        "OutputMappings": [
+                            {
+                                "Project": "S-Warfarin",
+                                "Simulation": "Warfarin Na 25mg (S-12.5mg) fed",
+                                "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Soon_2006_25mg_SD_S_fed",
+                                "Color": "#816B5E"
+                            },
+                            {
+                                "Project": "S-Warfarin",
+                                "Simulation": "Warfarin 30mg (S- 15mg) fasted",
+                                "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Schwartz_2008_15mg_S_Fasted",
+                                "Color": "#816B5E"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "S-Warfarin IV Administration (model verification)",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "S-Warfarin",
+                                "Simulation": "S-Warfarin 0.375mg/kg",
+                                "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "O'Sullivan_1993_0.375mgkg_IV_S",
+                                "Color": "#FF0000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "S-Warfarin Oral Administration fasted (model verification)",
+                        "Symbol": "Square",
+                        "OutputMappings": [
+                            {
+                                "Project": "S-Warfarin",
+                                "Simulation": "Warfarin Na 7.5mg (S- 3.75mg) fasted",
+                                "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Frymoyer_2010_7.5mg_SD_S_fed_3h",
+                                "Color": "#000080"
+                            },
+                            {
+                                "Project": "S-Warfarin",
+                                "Simulation": "Warfarin Na 10mg (S- 5mg) fasted",
+                                "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": ["Kim_2001_10mg_SD_S_fasted",
+                                "Turpeinen_2013_10mg_S",
+                                "Lilja_2007_10mg_S_fasted",
+                                "Ngo_2010_10mg_S_fasted"
+                            ],
+                                "Color": "#000080"
+                            },                    
+                            {                
+                                "Project": "S-Warfarin",
+                                "Simulation": "Warfarin Na 20mg (S- 10mg) fasted",
+                                "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Ouellet_2006_20mg_S_fasted",
+                                "Color": "#000080"
+                            },
+                            {
+                                "Project": "S-Warfarin",
+                                "Simulation": "Warfarin Na 25mg (S- 12.5mg) fasted",
+                                "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": ["Rahimy_2002_25mg_SD_S_fasted",
+                                "Almeida_2008_25mg_S_fasted",
+                                "Dingemanse_2013_25mg_S_fasted",
+                                "He_2007_25mg_S_fasted",
+                                "Macha_2013_25mg_SD_S_fasted",
+                                "Malhotra_2011_25mg_S_fasted",
+                                "Sanwald-Ducray_2014_25mg_SD_S_fasted",
+                                "Stockis_2013_25mg_S_fasted",
+                                "Toon_1987_25mg_S_fasted",
+                                "Toon_1990_25mg_S_fasted"
+                            ],
+                                "Color": "#000080"
+                            },
+                            {
+                                "Project": "S-Warfarin",
+                                "Simulation": "Warfarin 30mg (S- 15mg) fasted",
+                                "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Schwartz_2009_15_mg_S_fasted",
+                                "Color": "#000080"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "S-Warfarin Oral Administration fed (model verification)",
+                        "Symbol": "Diamond",
+                        "OutputMappings": [
+                            {
+                                "Project": "S-Warfarin",
+                                "Simulation": "Warfarin Na 25mg (S-12.5mg) fed",
+                                "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": ["Soon_2006_25mg_SD_S_fed",
+                                "Mallikaarjun_1999_25mg_SD_S_fed",
+                                "Yin_2011_25mg_SD_S_fed",
+                                "Sidharta_2014_25mg_S_fed"
+                            ],
+                                "Color": "#008000"
+                            },
+                            {
+                                "Project": "S-Warfarin",
+                                "Simulation": "Warfarin 26mg (S- 13mg) fed",
+                                "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Weber_1999_13 mg_S_Fed",
+                                "Color": "#008000"
+                            }
+                        ]
+                    }
+                ]
+            },
+                        {
+                "Title": "R-Warfarin Goodness of fit plot for concentration in plasma, R-warfarin",
+                "SectionReference": "diagnostics-plots-R-Warfarin",
+                "Artifacts": [
+                    "Plot",
+                    "GMFE",
+                    "Measure"
+                ],
+                "PlotTypes": [
+                    "predictedVsObserved",
+                    "residualsOverTime"
+                ],
+                "Groups": [
+                    {
+                        "Caption": "R-Warfarin Oral Administration (model verification)",
+                        "Symbol": "Square",
+                        "OutputMappings": [
+                            {
+                                "Project": "R-Warfarin",
+                                "Simulation": "Warfarin Na 25mg (R- 12.5mg) fasted",
+                                "Output": "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": ["Almeida_2008_25mg_R_fasted",
+                                 "Dingemanse_2013_25mg_R_fasted",
+                                 "He_2007_25mg_R_fasted",
+                                 "Malhotra_2011_25mg_R_fasted",
+                                 "Rahimy_2002_25mg_SD_R_fasted",
+                                 "Toon_1987_25mg_R_fasted",
+                                  "Toon_1990_25mg_R_fasted",
+                                   "Yin_2011_25mg_SD_R_fed"],
+                                "Color": "#816B5E"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "ComparisonTimeProfilePlots": [],
+        "DDIRatioPlots": [],
+        "PKRatioPlots": []
+    },
+    "Inputs": [
+        {
+            "Project": "S-Warfarin",
+            "Name": "S-Warfarin",
+            "Type": "Compound",
+            "SectionReference": "final-input-parameters"
+        },
+        {
+            "Project": "R-Warfarin",
+            "Name": "R-Warfarin",
+            "Type": "Compound",
+            "SectionReference": "final-input-parameters"
+        }
+    ],
+    "Sections": [
+        {
+            "Reference": "introduction",
+            "Title": "Introduction",
+            "Content": "Content/Section1_Introduction.md"
+        },
+        {
+            "Reference": "methods",
+            "Title": "Methods",
+            "Sections": [
+                {
+                    "Reference": "modeling-strategy",
+                    "Title": "Modeling Strategy",
+                    "Content": "Content/Section2.1_Modeling_Strategy.md"
+                },
+                {
+                    "Reference": "methods-data",
+                    "Title": "Data",
+                    "Content": "Content/Section2.2_Data.md"
+                },
+                {
+                    "Reference": "model-parameters-and-assumptions",
+                    "Title": "Model Parameters and Assumptions",
+                    "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md"
+                }
+            ]
+        },
+        {
+            "Reference": "results-and-discussion",
+            "Title": "Results and Discussion",
+            "Content": "Content/Section3_Results_and_Discussion.md",
+            "Sections": [
+                {
+                    "Reference": "final-input-parameters",
+                    "Title": "Final input parameters",
+                    "Content": "Content/Input_table.md"
+                },
+                {
+                    "Reference": "diagnostics-plots-S-Warfarin",
+                    "Title": "Diagnostics Plots S-warfarin",
+                    "Content": "Content/GOF_diagnostics.md"
+                },
+                {
+                    "Reference": "diagnostics-plots-R-Warfarin",
+                    "Title": "Diagnostics Plots R-warfarin",
+                    "Content": "Content/GOF_diagnostics.md"
+                },
+                {
+                    "Reference": "ct-profiles",
+                    "Title": "Concentration-Time Profiles",
+                    "Content": "Content/Concentration_time_profiles.md"
+                }
+            ]
+        },
+        {
+            "Reference": "conclusion",
+            "Title": "Conclusion",
+            "Content": "Content/Conclusion.md"
+        },
+        {
+            "Reference": "main-references",
+            "Title": "References",
+            "Content": "Content/References.md"
+        }
+    ],
+    "Intro": [
+        {
+            "Path": "Content/titlepage.md"
+        }
+    ]
+}
