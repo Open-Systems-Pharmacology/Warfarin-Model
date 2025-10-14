@@ -1,6 +1,8 @@
-**Almeida 2008** Almeida L, Falcão A, Vaz-da-Silva M, Nunes T, Santos AT, Rocha JF, Neta C, Macedo T, Fontes-Ribeiro C, Soares-da-Silva P. Effect of nebicapone on the pharmacokinetics and pharmacodynamics of warfarin in healthy subjects. Eur J Clin Pharmacol. 2008 Oct;64(10):961-6. doi: 10.1007/s00228-008-0534-2. Epub 2008 Aug 6.
+**Almeida 2008** Almeida L, Falcão A, Vaz-da-Silva M, Nunes T, Santos AT, Rocha JF, Neta C, Macedo T, Fontes-Ribeiro C, Soares-da-Silva P. Effect of nebicapone on the pharmacokinetics and pharmacodynamics of warfarin in healthy subjects. Eur J Clin Pharmacol. 2008 Oct;64(10):961-6. doi: 10.1007/s00228-008-0534-2.
 
 **Avdeef 1998** Avdeef A, Box KJ, Comer JE, Hibbert C, Tam KY. pH-metric logP 10. Determination of liposomal membrane-water partition coefficients of ionizable drugs. Pharm Res. 1998 Feb;15(2):209-15. doi: 10.1023/a:1011954332221. 
+
+**Bi 2018** Bi YA, Lin J, Mathialagan S, Tylaska L, Callegari E, Rodrigues AD, Varma MVS. Role of Hepatic Organic Anion Transporter 2 in the Pharmacokinetics of R- and S-Warfarin: In Vitro Studies and Mechanistic Evaluation. Mol Pharm. 2018 Mar 5;15(3):1284-1295. doi: 10.1021/acs.molpharmaceut.7b01108. 
 
 **Crewe 2011** Crewe HK, Barter ZE, Yeo KR, Rostami-Hodjegan A. Are there differences in the catalytic activity per unit enzyme of recombinantly expressed and human liver microsomal cytochrome P450 2C9? A systematic investigation into inter-system extrapolation factors. Biopharm Drug Dispos. 2011 Sep;32(6):303-18. doi: 10.1002/bdd.760. 
 
@@ -8,9 +10,13 @@
 
 **Drugbank** DrugBank DB00682 https://go.drugbank.com/drugs/DB00682, accessed 26-08-2025.
 
+**Essential Health** https://essentiahealth.testcatalog.org/show/LABFWARP#:~:text=The%20blood%20to%20plasma,ratio%20is%20approximately%200.5., accessed 14-10-2025.
+
 **FDA 2010** COUMADIN® TABLETS, FDA drug label. https://www.accessdata.fda.gov/drugsatfda_docs/label/2010/009218s108lbl.pdf
 
 **Frymoyer 2010** Frymoyer A, Shugarts S, Browne M, Wu AH, Frassetto L, Benet LZ. Effect of single-dose rifampin on the pharmacokinetics of warfarin in healthy volunteers. Clin Pharmacol Ther. 2010 Oct;88(4):540-7. doi: 10.1038/clpt.2010.142. Epub 2010 Aug 11. 
+
+**Dickinson 2007** Dickinson GL, Lennard MS, Tucker GT, Rostami-Hodjegan A. The use of mechanistic DM-PK-PD modelling to assess the power of pharmacogenetic studies -CYP2C9 and warfarin as an example. Br J Clin Pharmacol. 2007 Jul;64(1):14-26. doi: 10.1111/j.1365-2125.2007.02850.x. Epub 2007 Feb 12.
 
 **Jones 2010**Jones DR, Kim SY, Boysen G, Yun CH, Miller GP. Contribution of three CYP3A isoforms to metabolism of R- and S-warfarin. Drug Metab Lett. 2010 Dec;4(4):213-9. doi: 10.2174/187231210792928242.
 
@@ -46,6 +52,8 @@
 
 **Sanwald Ducray 2014** Sanwald-Ducray P, Jamois C, Banken L. The effect of aleglitazar on the pharmacokinetics and pharmacodynamics of S- and R-warfarin in healthy male subjects. J Cardiovasc Pharmacol. 2014 Feb;63(2):152-7. doi: 10.1097/FJC.0000000000000033.
 
+**Sawada 1985** Sawada Y, Hanano M, Sugiyama Y, Iga T. Prediction of the disposition of nine weakly acidic and six weakly basic drugs in humans from pharmacokinetic parameters in rats. J Pharmacokinet Biopharm. 1985 Oct;13(5):477-92. doi: 10.1007/BF01059331.
+
 **Shaik 2016** Shaik AN, Grater R, Lulla M, Williams DA, Gan LL, Bohnert T, LeDuc BW. Comparison of enzyme kinetics of warfarin analyzed by LC-MS/MS QTrap and differential mobility spectrometry. J Chromatogr B Analyt Technol Biomed Life Sci. 2016 Jan 1;1008:164-173. doi: 10.1016/j.jchromb.2015.11.036. Epub 2015 Nov 23.
 
 **Schwartz 2008** Schwartz JI, Dunbar S, Yuan J, Li S, Gipson A, Rosko K, Johnson-Levonas AO, Lasseter KC, Addy C, Stoch AS, Wagner JA. Influence of taranabant, a cannabinoid-1 receptor inverse agonist, on pharmacokinetics and pharmacodynamics of warfarin. Adv Ther. 2008 Nov;25(11):1175-90. doi: 10.1007/s12325-008-0116-9. 
@@ -53,6 +61,8 @@
 **Sidharta 2014** Sidharta PN, Dietrich H, Dingemanse J. Investigation of the effect of macitentan on the pharmacokinetics and pharmacodynamics of warfarin in healthy male subjects. Clin Drug Investig. 2014 Aug;34(8):545-52. doi: 10.1007/s40261-014-0207-0.
 
 **Soon 2006** Soon D, Kothare PA, Linnebjerg H, Park S, Yuen E, Mace KF, Wise SD. Effect of exenatide on the pharmacokinetics and pharmacodynamics of warfarin in healthy Asian men. J Clin Pharmacol. 2006 Oct;46(10):1179-87. doi: 10.1177/0091270006291622. 
+
+**Stella 1984** Stella VJ, Mooney KG, Pipkin JD. Dissolution and ionization of warfarin. J Pharm Sci. 1984 Jul;73(7):946-8. doi: 10.1002/jps.2600730721. 
 
 **Stockis 2013** Stockis A, van Lier JJ, Cawello W, Kumke T, Eckhardt K. Lack of effect of lacosamide on the pharmacokinetic and pharmacodynamic profiles of warfarin. Epilepsia. 2013 Jul;54(7):1161-6. doi: 10.1111/epi.12192. 
 
