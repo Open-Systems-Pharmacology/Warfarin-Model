@@ -7,11 +7,11 @@ A literature search was performed to collect available information on physicoche
 | **Parameter** | **Unit** | **Value** | **Source** | **Description** |
 |:--------------|:---------|----------:|:-----------|:----------------|
 | MW            | g/mol    | 308.33    | 	[Drugbank](#main-references)          | Molecular weight |
-| pK<sub>a</sub> | –        | 5.03 (acid) | [Drugbank](#main-references) | Acid dissociation constant |
+| pK<sub>a</sub> |         | 5.03 (acid) |  | Acid dissociation constant within literature range 5.03-5.1 [Bi 2018](#main-references),[Stella 1984](#main-references) |
 | Solubility     | mg/L     | 17 (at pH 7) | [Drugbank](#main-references) | Aqueous solubility |
 | fu<sub>plasma</sub> |   | 0.009     |[Takahashi 2003](#main-references)| Fraction unbound in plasma (albumin binding) |
-| LogP          | –        | 3.46      |[Avdeef 1998](#main-references)|  Liposomal membrane-water partition coefficient |
-| B/P           | –        | 0.55      | —          | Blood-to-plasma ratio (used in reduction pathway) |
+| LogP          |         | 3.46      |[Avdeef 1998](#main-references)|  Liposomal membrane-water partition coefficient |
+| B/P           |         | 0.55      |          | Assumed blood-to-plasma ratio (used in reduction pathway) within literature range 0.51-0.59 [Bi 2018](#main-references), [Dickinson 2007](#main-references), [Sawada 1985](#main-references), [Essential Health](#main-references) |
 
 **S-warfarin - Metabolic and clearance parameters**
 
@@ -31,8 +31,8 @@ A literature search was performed to collect available information on physicoche
 | CYP1A2               | Km            | µM       | 648       | Adopted from previous PK-Sim model |
 | CYP2C19              | Km            | µM       | 391       | Adopted from previous PK-Sim model |
 | CYP3A4               | Km            | µM       | 586       | Adopted from previous PK-Sim model |
-| Reduction to alcohols| Plasma CL Specific CL | ml/h/kg 1/min    | 0.27 0.02|  
-| Renal clearance      |  Plasma CL Specific CL | ml/h/kg 1/min | 0.07 0.02     |   
+| Reduction to alcohols|Plasma CL Specific CL|ml/h/kg 1/min|0.27 0.02|  
+| Renal clearance|Plasma CL Specific CL|ml/h/kg 1/min|0.07 0.02|   
 
 ### Clinical Data  <a id="clinical-data"></a>
 
@@ -90,7 +90,6 @@ The following studies were used for model verification:
 
 | **Dose [mg]** | **Dosing** | **PK data** |**Dataset**| **Reference** |
 | --------------- | ------------------- | ----------------------- | ----------------- |----------------- |
-<<<<<<< HEAD
 | 25| po, tab, fasted, sd |plasma|verification|[Almeida 2008](#main-references)| 
 | 25| po, tab, fasted, sd |plasma|verification|[Dingemande 2013](#5-references)| 
 | 25| po, tab, fasted, sd |plasma|verification|[He 2007](#main-references)| 
@@ -102,8 +101,7 @@ The following studies were used for model verification:
 | 25| po, tab, fed, sd |plasma|verification|[Mallikaarjun 1999](#main-references)| 
 | 25| po, tab, fed, sd |plasma|verification|[Sidharta 2014](#main-references)| 
 | 25| po, tab, fed, sd |plasma|verification|[Soon 2006](#main-references)| 
-| 25| po, tab, fed, sd |plasma|verification|[Yin 2011](#main-references)| 
-=======
+| 25| po, tab, fed, sd |plasma|verification|[Yin 2011](#main-references)|
 | 25| po, tab, fasted, sd |plasma|verification|[Almeida 2008](#5-references)| 
 | 25| po, tab, fasted, sd |plasma|verification|[Dingemanse 2013](#5-references)| 
 | 25| po, tab, fasted, sd |plasma|verification|[He 2007](#5-references)| 
@@ -115,7 +113,6 @@ The following studies were used for model verification:
 | 25| po, tab, fed, sd |plasma|verification|[Mallikaarjun 1999](#5-references)| 
 | 25| po, tab, fed, sd |plasma|verification|[Sidharta 2014](#5-references)| 
 | 25| po, tab, fed, sd |plasma|verification|[Soon 2006](#5-references)| 
-| 25| po, tab, fed, sd |plasma|verification|[Yin 2011](#5-references)| 
->>>>>>> c4bac1efd21d652db42ed9b81ab341fed3579aca
+| 25| po, tab, fed, sd |plasma|verification|[Yin 2011](#5-references)|
 
 iv = intravenous; po = oral administration; tab = tablet administration; sd = single dose; qd = once daily
