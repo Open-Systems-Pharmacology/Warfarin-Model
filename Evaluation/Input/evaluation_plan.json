@@ -323,6 +323,17 @@
                         "Symbol": "Square",
                         "OutputMappings": [
                             {
+                                "Project": "S-Warfarin",
+                                "Simulation": "Warfarin Na 25mg (R-12.5mg) fed",
+                                "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": ["Soon_2006_25mg_SD_R_fed",
+                                "Mallikaarjun_1999_25mg_SD_R_fed",
+                                "Yin_2011_25mg_SD_R_fed",
+                                "Sidharta_2014_25mg_R_fed"
+                            ],
+                                "Color": "#008000"
+                            },
+                            {
                                 "Project": "R-Warfarin",
                                 "Simulation": "Warfarin Na 25mg (R- 12.5mg) fasted",
                                 "Output": "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
