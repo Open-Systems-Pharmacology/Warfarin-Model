@@ -1,5 +1,5 @@
 {
-  "Version": 79,
+  "Version": 80,
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -988,7 +988,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|13 mg warfarin PO|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|13 mg warfarin PO|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -1201,7 +1201,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|15 mg warfarin PO|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|15 mg warfarin PO|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -1420,7 +1420,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|20 mg warfarin sodium (10 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|20 mg warfarin sodium (10 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -1623,7 +1623,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|7.5 mg warfarin sodium (3.75mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|7.5 mg warfarin sodium (3.75mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2030,7 +2030,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|30 mg warfarin sodium (15 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|30 mg warfarin sodium (15 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2248,7 +2248,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|25 mg warfarin sodium (12.5 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|25 mg warfarin sodium (12.5 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2528,7 +2528,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|25 mg warfarin sodium (12.5 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|25 mg warfarin sodium (12.5 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2889,7 +2889,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|10 mg warfarin sodium (5 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|10 mg warfarin sodium (5 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -3147,17 +3147,9 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|25 mg warfarin sodium (12.5 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|25 mg warfarin sodium (12.5 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
-        },
-        {
-          "Path": "R-Warfarin|Intestinal permeability (transcellular)",
-          "Value": 0.0015,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
         },
         {
           "Path": "Undefined Liver|Reference concentration",
@@ -3429,6 +3421,259 @@
           },
           "Title": "Warfarin Na 25mg (R-Warfarin 12.5mg) PO fasted",
           "OriginText": "Warfarin-Model\nWarfarin Na 25mg (R- 12.5mg) fasted\n2025-10-10 14:04"
+        }
+      ]
+    },
+    {
+      "Name": "Warfarin Na 25mg (R-12.5mg) fed",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Yin_2011_25mg_SD_R_fed",
+        "Soon_2006_25mg_SD_R_fed",
+        "Sidharta_2014_25mg_R_fed",
+        "Mallikaarjun_1999_25mg_SD_R_fed"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 145.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|25 mg warfarin sodium (12.5 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard Male",
+      "Compounds": [
+        {
+          "Name": "R-Warfarin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "Name": "CYP2C19-HLM Mean",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "CYP1A2-HLM Mean",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP3A4-HLM Mean",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Reduction to alcohols",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Renal Clearances-Urine excretion data (Heimark, Toon, O'Reilly)",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "25 mg warfarin sodium (12.5 mg each enantiomer)",
+            "Formulations": [
+              {
+                "Name": "Weibull (Coumadin)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "meal",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Dimensionless",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mallikaarjun_1999_25mg_SD_R_fed-R-Warfarin-Measurement",
+              "X": "Mallikaarjun_1999_25mg_SD_R_fed|Time",
+              "Y": "Mallikaarjun_1999_25mg_SD_R_fed|ObservedData|||R-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Yin_2011_25mg_SD_R_fed-R-Warfarin-Measurement",
+              "X": "Yin_2011_25mg_SD_R_fed|Time",
+              "Y": "Yin_2011_25mg_SD_R_fed|ObservedData|||R-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 11,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Soon_2006_25mg_SD_R_fed-R-Warfarin-Measurement",
+              "X": "Soon_2006_25mg_SD_R_fed|Time",
+              "Y": "Soon_2006_25mg_SD_R_fed|ObservedData|||R-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Sidharta_2014_25mg_R_fed-R-Warfarin-Measurement",
+              "X": "Sidharta_2014_25mg_R_fed|Time",
+              "Y": "Sidharta_2014_25mg_R_fed|ObservedData|||R-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "R-Warfarin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Warfarin Na 25mg (R-12.5mg) fed|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 7
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Warfarin Na 25mg (R-Warfarin 12.5mg) PO fed",
+          "OriginText": "Warfarin-Model\nWarfarin Na 25mg (R-12.5mg) fed\n2025-10-15 09:22"
         }
       ]
     }
@@ -7845,7 +8090,8 @@
         "Warfarin Na 25mg (S-12.5mg) fed",
         "Warfarin Na 25mg (S- 12.5mg) fasted",
         "Warfarin Na 10mg (S- 5mg) fasted",
-        "Warfarin Na 25mg (R- 12.5mg) fasted"
+        "Warfarin Na 25mg (R- 12.5mg) fasted",
+        "Warfarin Na 25mg (R-12.5mg) fed"
       ]
     },
     {
