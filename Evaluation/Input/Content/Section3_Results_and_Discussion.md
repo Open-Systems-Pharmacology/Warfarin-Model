@@ -3,9 +3,9 @@ The PBPK model for Warfarin, was developed and verified with clinical pharmacoki
 The model was evaluated covering data from studies including in particular
 
 * Intravenous Bolus S-Warfarin (0.375 mg/kg) 
-* Oral administration over fasted state (dosing range of Warfarin 7.5 mg to 30 mg (equivalent to 3.75 mg to 15 mg S-Warfarin)
-* Oral administration over fed state of 25-26 mg Warfarin (equivalent to 12.5-13 mg of S-Warfarin)
-* Oral administration over fasted state of R-warfarin (25 mg  (equivalent to 12.5 mg of R-Warfarin)).
+* Oral administration over Warfarin in the fasted state in a dosing range of 7.5 mg to 30 mg (equivalent to 3.75 mg to 15 mg S-Warfarin)
+* Oral administration over Warfarin in the fed state in a dosing range 25-26 mg (equivalent to 12.5-13 mg of S-Warfarin)
+* Oral administration over of 25 mg Warfarin in the fasted and fed state (equivalent to 12.5 mg of R-Warfarin).
 
 
 The next sections show:
