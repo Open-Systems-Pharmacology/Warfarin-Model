@@ -14,7 +14,7 @@ Clearance of warfarin was described through enzymatic and reductive pathways, wi
 
 For **S-warfarin**, metabolism is dominated by CYP2C9, which is the principal enzyme responsible for oxidative clearance. 
 A smaller contribution from CYP3A4 was also included, together accounting for the observed in-vivo clearance. 
-In addition, a reductive pathway leading to alcohol metabolites was implemented, using literature-based plasma clearance values and a blood-to-plasma ratio of 0.55 [Bi 2018](#main-references), [Dickinson 2007](#main-references), [Sawada 1985](#main-references), [Essential Health](#main-references), leading to a hepatic `Specific Clearance` of 0.02 1/min. 
+In addition, a reductive pathway leading to alcohol metabolites was implemented, using literature-based plasma clearance values and a blood-to-plasma ratio of 0.55 ([Bi 2018](#main-references), [Dickinson 2007](#main-references), [Sawada 1985](#main-references), [Essential Health](#main-references)), leading to a hepatic `Specific Clearance` of 0.02 1/min. 
 The renal elimination of unchanged S-warfarin was parameterized but remains negligible, consistent with clinical evidence of ~ 1% fraction excreted in urine [FDA 2010](#main-references). 
 Kinetic constants for CYP2C9 and CYP3A4 were taken from in-vitro studies and the associated `Kcat` were optimized within the current model to achieve agreement with observed plasma concentrations. These optimized values reflect the dominant role of CYP2C9 and the minor but non-negligible contribution of CYP3A4 to the overall clearance of the S-enantiomer.
 
