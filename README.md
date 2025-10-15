@@ -9,8 +9,8 @@ This repository contains:
 - an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
   
 The model was developed and evaluated for S-Warfarin and R-Warfarin using data from several clinical studies. 
-For S-Warfarin, the model was developed and evaluated against IV administration (0.375 mg/kg) and oral administration (dosing range of Warfarin 7.5 mg to 30 mg in the fasted state (equivalent to 3.75 mg to 15 mg of S-Warfarin), and 25-26 mg (equivalent to 12.5-13 mg of S-Warfarin) in the fed state). 
-For R-Warfarin, the model was developed and evaluated against oral administration (dosing range of Warfarin 25 mg in the fasted state (equivalent to 12.5 mg of R-Warfarin)). 
+For S-Warfarin, the model was developed and evaluated against IV administration (0.375 mg/kg) and oral administration (dosing range of Warfarin 7.5 mg to 30 mg in the fasted state (equivalent to 3.75 mg to 15 mg of S-Warfarin), and 25-26 mg in the fed state (equivalent to 12.5-13 mg of S-Warfarin)). 
+For R-Warfarin, the model was developed and evaluated against oral administration (dosing range of Warfarin 25 mg in the fasted and fed state (equivalent to 12.5 mg of R-Warfarin)). 
 
 The PK-Sim snapshot file contains simulations and the observed data of all clinical studies used for model development and evaluation. 
 
