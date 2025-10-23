@@ -175,6 +175,11 @@
                 "Project": "S-Warfarin",
                 "Simulation": "S-Warfarin 0.375mg/kg",
                 "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "S-Warfarin",
+                "Simulation": "Warfarin Na 25mg (R-12.5mg) fed",
+                "SectionReference": "ct-profiles"
             }
         ],
         "GOFMergedPlots": [
@@ -287,8 +292,7 @@
                                 "Project": "S-Warfarin",
                                 "Simulation": "Warfarin Na 25mg (S-12.5mg) fed",
                                 "Output": "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": ["Soon_2006_25mg_SD_S_fed",
-                                "Mallikaarjun_1999_25mg_SD_S_fed",
+                                "ObservedData": ["Mallikaarjun_1999_25mg_SD_S_fed",
                                 "Yin_2011_25mg_SD_S_fed",
                                 "Sidharta_2014_25mg_S_fed"
                             ],
@@ -322,6 +326,17 @@
                         "Caption": "R-Warfarin Oral Administration (model verification)",
                         "Symbol": "Square",
                         "OutputMappings": [
+                            {
+                                "Project": "S-Warfarin",
+                                "Simulation": "Warfarin Na 25mg (R-12.5mg) fed",
+                                "Output": "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": ["Soon_2006_25mg_SD_R_fed",
+                                "Mallikaarjun_1999_25mg_SD_R_fed",
+                                "Yin_2011_25mg_SD_R_fed",
+                                "Sidharta_2014_25mg_R_fed"
+                            ],
+                                "Color": "#008000"
+                            },
                             {
                                 "Project": "R-Warfarin",
                                 "Simulation": "Warfarin Na 25mg (R- 12.5mg) fasted",

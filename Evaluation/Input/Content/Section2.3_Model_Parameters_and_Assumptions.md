@@ -2,11 +2,11 @@
 
 The measured solubility of Warfarin was taken from Product information from [Drugbank](#main-references) (see [Section 2.2.1](#invitro-and-physico-chemical-data)).
 
-Tablet dissolution was modeled using an empirical Weibull dissolution approach. Both enantiomer share the same absorption processes.
+Tablet dissolution was modeled using an empirical Weibull dissolution approach. Both enantiomers share the same absorption processes.
 
 ### Distribution <a id="model-parameters-and-assumptions-distribution"></a>
 
-After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim®, observed clinical data was best described by choosing the partition coefficient calculation by `Rodgers and Rowland` and cellular permeability calculation by `Charged dependent Schmitt`.
+After testing the organ-plasma partition coefficient and cell permeability calculation methods available in PK-Sim®, observed clinical data were best described by choosing the partition coefficient calculation method by `Rodgers and Rowland` and cellular permeability calculation method by `Charged dependent Schmitt`.
 
 ### Metabolism and Elimination <a id="model-parameters-and-assumptions-metabolism-and-elimination"></a>
 
@@ -14,7 +14,7 @@ Clearance of warfarin was described through enzymatic and reductive pathways, wi
 
 For **S-warfarin**, metabolism is dominated by CYP2C9, which is the principal enzyme responsible for oxidative clearance. 
 A smaller contribution from CYP3A4 was also included, together accounting for the observed in-vivo clearance. 
-In addition, a reductive pathway leading to alcohol metabolites was implemented, using literature-based plasma clearance values and a blood-to-plasma ratio of 0.55 [Wittkowsky 2003](#5-references), leading to a hepatic `Specific Clearance` of 0.02 1/min. 
+In addition, a reductive pathway leading to alcohol metabolites was implemented, using literature-based plasma clearance values and a blood-to-plasma ratio of 0.55 ([Bi 2018](#main-references), [Dickinson 2007](#main-references), [Sawada 1985](#main-references), [Essential Health](#main-references)), leading to a hepatic `Specific Clearance` of 0.02 1/min. 
 The renal elimination of unchanged S-warfarin was parameterized but remains negligible, consistent with clinical evidence of ~ 1% fraction excreted in urine [FDA 2010](#main-references). 
 Kinetic constants for CYP2C9 and CYP3A4 were taken from in-vitro studies and the associated `Kcat` were optimized within the current model to achieve agreement with observed plasma concentrations. These optimized values reflect the dominant role of CYP2C9 and the minor but non-negligible contribution of CYP3A4 to the overall clearance of the S-enantiomer.
 
