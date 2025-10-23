@@ -19,8 +19,10 @@ A literature search was performed to collect available information on physicoche
 |:---------------------|:--------------|:---------|----------:|:------------------|
 | CYP2C9               | Km            | µM       | 4.4       | Experimental Km within range 3.5 to 5.54 µM [Shaik 2016](#main-references),[Rettie 1992](#main-references), [Rettie 1992](#main-references), [Yong 2009](#main-references), [Crewe 2011](#main-references)|
 | CYP3A4               | Km            | µM       | 14.9      | Experimental Km within range 14 to 27 [Shaik 2016](#main-references), [Jones 2010](#main-references)  |
-| Reduction to alcohols| Plasma CL `<w:br/>`{=openxml}Specific CL   |       ml/min/kg `<w:br/>`{=openxml}  1/min    | 0.14 `<w:br/>`{=openxml}  0.02| Metabolism reduction mediated by aldo-keto reductases (i.e., fraction metabolized ~ 10%) [Wittkowsky 2003](#main-references)|
-| Renal clearance|Plasma CL `<w:br/>`{=openxml}Specific CL| l/h/kg `<w:br/>`{=openxml} 1/min|       0.07 `<w:br/>`{=openxml} 0.02|   Consistent with fraction excreted in urine ~ 1% [FDA 2010](#main-references) |
+| Reduction to alcohols| Plasma CL  |  ml/min/kg| 0.14| Metabolism reduction mediated by aldo-keto reductases (i.e., fraction metabolized ~ 10%) [Wittkowsky 2003](#main-references)|
+| Reduction to alcohols| Specific CL   |  1/min    | 0.02| Metabolism reduction mediated by aldo-keto reductases (i.e., fraction metabolized ~ 10%) [Wittkowsky 2003](#main-references)|
+| Renal clearance|Plasma CL | l/h/kg|       0.07 |   Consistent with fraction excreted in urine ~ 1% [FDA 2010](#main-references) |
+| Renal clearance|Specific CL| 1/min|  0.02|   Consistent with fraction excreted in urine ~ 1% [FDA 2010](#main-references) |
 
 
 
@@ -31,8 +33,10 @@ A literature search was performed to collect available information on physicoche
 | CYP1A2               | Km            | µM       | 648       | Adopted from previous PK-Sim model |
 | CYP2C19              | Km            | µM       | 391       | Adopted from previous PK-Sim model |
 | CYP3A4               | Km            | µM       | 586       | Adopted from previous PK-Sim model |
-| Reduction to alcohols|Plasma CL `<w:br/>`{=openxml}Specific CL|ml/h/kg `<w:br/>`{=openxml} 1/min|0.27 `<w:br/>`{=openxml}  0.02|  
-| Renal clearance|Plasma CL `<w:br/>`{=openxml}Specific CL|ml/h/kg `<w:br/>`{=openxml} 1/min|0.07 `<w:br/>`{=openxml}  0.02|   
+| Reduction to alcohols|Plasma CL |ml/h/kg |0.27|  Adopted from previous PK-Sim model
+| Reduction to alcohols|Specific CL| 1/min|  0.02|  Adopted from previous PK-Sim model
+| Renal clearance|Plasma CL |ml/h/kg |0.07|   Adopted from previous PK-Sim model
+| Renal clearance|Specific CL| 1/min|0.02|  Adopted from previous PK-Sim model 
 
 ### Clinical Data  <a id="clinical-data"></a>
 
