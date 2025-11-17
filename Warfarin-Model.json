@@ -71,7 +71,7 @@
           "Value": 0.1199553358
         }
       ],
-      "Localization": "Intracellular",
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
       "Ontogeny": {
         "Name": "CYP2C9"
       }
@@ -118,84 +118,9 @@
           "Value": 2.4947589099E-05
         }
       ],
-      "Localization": "Intracellular",
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
       "Ontogeny": {
         "Name": "CYP1A2"
-      }
-    },
-    {
-      "Type": "Enzyme",
-      "Species": "Human",
-      "Molecule": "CYP2C19",
-      "Category": "Healthy",
-      "Parameters": [
-        {
-          "Path": "CYP2C19|Reference concentration",
-          "Value": 0.76,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2C19|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "CYP2C19|t1/2 (liver)",
-          "Value": 1560.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP2C19|Relative expression",
-          "Value": 0.00014961101137
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP2C19|Relative expression",
-          "Value": 0.0003526545268
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP2C19|Relative expression",
-          "Value": 0.00015816021202
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C19|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C19|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP2C19|Relative expression",
-          "Value": 0.00040608703086
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP2C19|Relative expression",
-          "Value": 0.3238009746
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C19|Relative expression",
-          "Value": 0.3238009746
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C19|Relative expression",
-          "Value": 0.3238009746
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C19|Relative expression",
-          "Value": 0.3238009746
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C19|Relative expression",
-          "Value": 0.3238009746
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C19|Relative expression",
-          "Value": 0.3238009746
-        }
-      ],
-      "Localization": "Intracellular",
-      "Ontogeny": {
-        "Name": "CYP2C19"
       }
     },
     {
@@ -268,9 +193,84 @@
           "Value": 0.0727697702
         }
       ],
-      "Localization": "Intracellular",
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
       "Ontogeny": {
         "Name": "CYP3A4"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2C19",
+      "Category": "Healthy",
+      "Parameters": [
+        {
+          "Path": "CYP2C19|Reference concentration",
+          "Value": 0.76,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2C19|t1/2 (liver)",
+          "Value": 26.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00014961101137
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.0003526545268
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00015816021202
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C19|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C19|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.00040608703086
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.014529148
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.016875
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.0139655172
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.0132244898
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.0139655172
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C19|Relative expression",
+          "Value": 0.0132244898
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP2C19"
       }
     }
   ],
@@ -293,9 +293,9 @@
       },
       "ExpressionProfiles": [
         "CYP2C9|Human|Healthy",
-        "CYP2C19|Human|Healthy",
         "CYP1A2|Human|Healthy",
-        "CYP3A4|Human|Healthy"
+        "CYP3A4|Human|Healthy",
+        "CYP2C19|Human|Healthy"
       ]
     }
   ],
@@ -937,6 +937,191 @@
   ],
   "Simulations": [
     {
+      "Name": "S-Warfarin 0.375mg/kg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "O'Sullivan_1993_0.375mgkg_IV_S"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 120.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard Male",
+      "Compounds": [
+        {
+          "Name": "S-Warfarin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2C9-HLM Mean",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP3A4-HLM mean",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Reduction to alcohool",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Renal Clearances-Urine excretion data (Heimark, Toon, O'Reilly)",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "IV 0.375 mg/kg S-warfarin"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "S-Warfarin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "S-Warfarin 0.375mg/kg|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "O'Sullivan_1993_0.375mgkg_IV_S-S-Warfarin-Measurement",
+              "X": "O'Sullivan_1993_0.375mgkg_IV_S|Time",
+              "Y": "O'Sullivan_1993_0.375mgkg_IV_S|ObservedData|||S-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "S-Warfarin 0.375mg/kg IV fasted",
+          "OriginText": "Warfarin-Model\nS-Warfarin 0.375mg/kg\n2025-11-11 15:08"
+        }
+      ]
+    },
+    {
       "Name": "Warfarin 26mg (S- 13mg) fed",
       "Model": "4Comp",
       "ObservedData": [
@@ -1011,13 +1196,6 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)"
       ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin 26mg (S- 13mg) fed|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Weber_1999_13 mg_S_Fed"
-        }
-      ],
       "Individual": "Standard Male",
       "Compounds": [
         {
@@ -1038,14 +1216,14 @@
               "MoleculeName": "CYP2C9"
             },
             {
-              "MoleculeName": "CYP2C19"
-            },
-            {
               "MoleculeName": "CYP1A2"
             },
             {
               "Name": "CYP3A4-HLM mean",
               "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2C19"
             },
             {
               "Name": "Total Hepatic Clearance-Reduction to alcohool",
@@ -1144,1063 +1322,18 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Warfarin 26mg (S-Warfarin 13mg) PO fed",
-          "OriginText": "warfarin\n13 mg Single Dose\n2025-08-01 12:11"
+          "OriginText": "Warfarin-Model\nWarfarin 26mg (S- 13mg) fed\n2025-11-11 15:07"
         }
       ]
     },
     {
-      "Name": "Warfarin 30mg (S- 15mg) fasted",
+      "Name": "Warfarin Na 25mg (R-12.5mg) fed",
       "Model": "4Comp",
       "ObservedData": [
-        "Schwartz_2009_15_mg_S_fasted",
-        "Schwartz_2008_15mg_S_Fasted"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 170.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|15 mg warfarin PO|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Undefined Liver|Reference concentration",
-          "Value": 1.0,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (liver)",
-          "Value": 2160.0,
-          "Unit": "min"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin 30mg (S- 15mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Schwartz_2009_15_mg_S_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin 30mg (S- 15mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Schwartz_2008_15mg_S_Fasted"
-        }
-      ],
-      "Individual": "Standard Male",
-      "Compounds": [
-        {
-          "Name": "S-Warfarin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - Charge dependent Schmitt"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "fitted",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP2C9-HLM Mean",
-              "MoleculeName": "CYP2C9"
-            },
-            {
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP3A4-HLM mean",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "Total Hepatic Clearance-Reduction to alcohool",
-              "SystemicProcessType": "Hepatic"
-            },
-            {
-              "Name": "Renal Clearances-Urine excretion data (Heimark, Toon, O'Reilly)",
-              "SystemicProcessType": "Renal"
-            }
-          ],
-          "Protocol": {
-            "Name": "15 mg warfarin PO",
-            "Formulations": [
-              {
-                "Name": "Weibull (Coumadin)",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "S-Warfarin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Warfarin 30mg (S- 15mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "S PO 15 mg_Fas_Schwartz 2009-Warfarin-Measurement",
-              "X": "Schwartz_2009_15_mg_S_fasted|Time",
-              "Y": "Schwartz_2009_15_mg_S_fasted|ObservedData|||Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "S PO 15 mg_Fas_Schwartz 2008-Warfarin-Measurement",
-              "X": "Schwartz_2008_15mg_S_Fasted|Time",
-              "Y": "Schwartz_2008_15mg_S_Fasted|ObservedData|||Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "Title": "Warfarin Na 30mg (S-Warfarin 15mg) fasted",
-          "OriginText": "Warfarin-Model-MG10325\n7.5mg S-Warfarin fasted\n2025-10-03 16:06"
-        }
-      ]
-    },
-    {
-      "Name": "Warfarin Na 20mg (S- 10mg) fasted",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Ouellet_2006_20mg_S_fasted"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 170.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|20 mg warfarin sodium (10 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Undefined Liver|Reference concentration",
-          "Value": 1.0,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (liver)",
-          "Value": 2160.0,
-          "Unit": "min"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 20mg (S- 10mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Ouellet_2006_20mg_S_fasted"
-        }
-      ],
-      "Individual": "Standard Male",
-      "Compounds": [
-        {
-          "Name": "S-Warfarin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - Charge dependent Schmitt"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "fitted",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP2C9-HLM Mean",
-              "MoleculeName": "CYP2C9"
-            },
-            {
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP3A4-HLM mean",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "Total Hepatic Clearance-Reduction to alcohool",
-              "SystemicProcessType": "Hepatic"
-            },
-            {
-              "Name": "Renal Clearances-Urine excretion data (Heimark, Toon, O'Reilly)",
-              "SystemicProcessType": "Renal"
-            }
-          ],
-          "Protocol": {
-            "Name": "20 mg warfarin sodium (10 mg each enantiomer)",
-            "Formulations": [
-              {
-                "Name": "Weibull (Coumadin)",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "S-Warfarin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Warfarin Na 20mg (S- 10mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Ouellet_2006_20mg_S_fasted-S-Warfarin-Measurement",
-              "X": "Ouellet_2006_20mg_S_fasted|Time",
-              "Y": "Ouellet_2006_20mg_S_fasted|ObservedData|||S-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "Title": "Warfarin Na 20mg (S-Warfarin 10mg) PO fasted",
-          "OriginText": "warfarin\n20 mg Single Dose fasted\n2025-08-01 12:10"
-        }
-      ]
-    },
-    {
-      "Name": "Warfarin Na 7.5mg (S- 3.75mg) fasted",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Frymoyer_2010_7.5mg_SD_S_fed_3h"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 150.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|7.5 mg warfarin sodium (3.75mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Undefined Liver|Reference concentration",
-          "Value": 1.0,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (liver)",
-          "Value": 2160.0,
-          "Unit": "min"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 7.5mg (S- 3.75mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Frymoyer_2010_7.5mg_SD_S_fed_3h"
-        }
-      ],
-      "Individual": "Standard Male",
-      "Compounds": [
-        {
-          "Name": "S-Warfarin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - Charge dependent Schmitt"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "fitted",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP2C9-HLM Mean",
-              "MoleculeName": "CYP2C9"
-            },
-            {
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP3A4-HLM mean",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "Total Hepatic Clearance-Reduction to alcohool",
-              "SystemicProcessType": "Hepatic"
-            },
-            {
-              "Name": "Renal Clearances-Urine excretion data (Heimark, Toon, O'Reilly)",
-              "SystemicProcessType": "Renal"
-            }
-          ],
-          "Protocol": {
-            "Name": "7.5 mg warfarin sodium (3.75mg each enantiomer)",
-            "Formulations": [
-              {
-                "Name": "Weibull (Coumadin)",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "meal",
-          "StartTime": {
-            "Value": 3.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "S-Warfarin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Warfarin Na 7.5mg (S- 3.75mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Frymoyer_2010_7.5mg_SD_S_fed_3h-S-Warfarin-Measurement",
-              "X": "Frymoyer_2010_7.5mg_SD_S_fed_3h|Time",
-              "Y": "Frymoyer_2010_7.5mg_SD_S_fed_3h|ObservedData|||S-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "Title": "Warfarin Na 7.5mg (S-Warfarin 3.75mg) fasted + meal post-dose ",
-          "OriginText": "Warfarin-Model-MG10325\n7.5 mg Single Dose S warfarin fed\n2025-10-03 15:55"
-        }
-      ]
-    },
-    {
-      "Name": "S-Warfarin 0.375mg/kg",
-      "Model": "4Comp",
-      "ObservedData": [
-        "O'Sullivan_1993_0.375mgkg_IV_S"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 120.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Undefined Liver|Reference concentration",
-          "Value": 1.0,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (liver)",
-          "Value": 2160.0,
-          "Unit": "min"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "S-Warfarin 0.375mg/kg|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "O'Sullivan_1993_0.375mgkg_IV_S"
-        }
-      ],
-      "Individual": "Standard Male",
-      "Compounds": [
-        {
-          "Name": "S-Warfarin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - Charge dependent Schmitt"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "fitted",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP2C9-HLM Mean",
-              "MoleculeName": "CYP2C9"
-            },
-            {
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP3A4-HLM mean",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "Total Hepatic Clearance-Reduction to alcohool",
-              "SystemicProcessType": "Hepatic"
-            },
-            {
-              "Name": "Renal Clearances-Urine excretion data (Heimark, Toon, O'Reilly)",
-              "SystemicProcessType": "Renal"
-            }
-          ],
-          "Protocol": {
-            "Name": "IV 0.375 mg/kg S-warfarin"
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "S-Warfarin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "S-Warfarin 0.375mg/kg|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "O'Sullivan_1993_0.375mgkg_IV_S-S-Warfarin-Measurement",
-              "X": "O'Sullivan_1993_0.375mgkg_IV_S|Time",
-              "Y": "O'Sullivan_1993_0.375mgkg_IV_S|ObservedData|||S-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "Title": "S-Warfarin 0.375mg/kg IV fasted",
-          "OriginText": "warfarin\nIV 0.375\n2025-08-01 12:09"
-        }
-      ]
-    },
-    {
-      "Name": "Warfarin Na 30mg (S- 15mg) fasted",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Liao_1996_30mg_SD_S_fed_4h"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 145.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|30 mg warfarin sodium (15 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Undefined Liver|Reference concentration",
-          "Value": 1.0,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "Undefined Liver|t1/2 (liver)",
-          "Value": 2160.0,
-          "Unit": "min"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 30mg (S- 15mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Liao_1996_30mg_SD_S_fed_4h"
-        }
-      ],
-      "Individual": "Standard Male",
-      "Compounds": [
-        {
-          "Name": "S-Warfarin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - Charge dependent Schmitt"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "fitted",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP2C9-HLM Mean",
-              "MoleculeName": "CYP2C9"
-            },
-            {
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP3A4-HLM mean",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "Total Hepatic Clearance-Reduction to alcohool",
-              "SystemicProcessType": "Hepatic"
-            },
-            {
-              "Name": "Renal Clearances-Urine excretion data (Heimark, Toon, O'Reilly)",
-              "SystemicProcessType": "Renal"
-            }
-          ],
-          "Protocol": {
-            "Name": "30 mg warfarin sodium (15 mg each enantiomer)",
-            "Formulations": [
-              {
-                "Name": "Weibull (Coumadin)",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "meal",
-          "StartTime": {
-            "Value": 4.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "S-Warfarin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Warfarin Na 30mg (S- 15mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Liao_1996_30mg_SD_S_fed_4h-S-Warfarin-Measurement",
-              "X": "Liao_1996_30mg_SD_S_fed_4h|Time",
-              "Y": "Liao_1996_30mg_SD_S_fed_4h|ObservedData|||S-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "Title": "Warfarin 7.5mg (S-Warfarin 15mg) PO fasted + meal post-dose ",
-          "OriginText": "Warfarin-Model-MG10325\nWarfarin Na 30mg (S- 15mg) fasted\n2025-10-03 16:57"
-        }
-      ]
-    },
-    {
-      "Name": "Warfarin Na 25mg (S-12.5mg) fed",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Mallikaarjun_1999_25mg_SD_S_fed",
-        "Sidharta_2014_25mg_S_fed",
-        "Soon_2006_25mg_SD_S_fed",
-        "Yin_2011_25mg_SD_S_fed"
+        "Yin_2011_25mg_SD_R_fed",
+        "Soon_2006_25mg_SD_R_fed",
+        "Sidharta_2014_25mg_R_fed",
+        "Mallikaarjun_1999_25mg_SD_R_fed"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -2269,34 +1402,12 @@
         }
       ],
       "OutputSelections": [
-        "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (S-12.5mg) fed|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Mallikaarjun_1999_25mg_SD_S_fed"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (S-12.5mg) fed|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Sidharta_2014_25mg_S_fed"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (S-12.5mg) fed|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Soon_2006_25mg_SD_S_fed"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (S-12.5mg) fed|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Yin_2011_25mg_SD_S_fed"
-        }
+        "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)"
       ],
       "Individual": "Standard Male",
       "Compounds": [
         {
-          "Name": "S-Warfarin",
+          "Name": "R-Warfarin",
           "CalculationMethods": [
             "Cellular partition coefficient method - Rodgers and Rowland",
             "Cellular permeability - Charge dependent Schmitt"
@@ -2309,21 +1420,22 @@
           ],
           "Processes": [
             {
-              "Name": "CYP2C9-HLM Mean",
               "MoleculeName": "CYP2C9"
             },
             {
-              "MoleculeName": "CYP2C19"
-            },
-            {
+              "Name": "CYP1A2-HLM Mean",
               "MoleculeName": "CYP1A2"
             },
             {
-              "Name": "CYP3A4-HLM mean",
+              "Name": "CYP3A4-HLM Mean",
               "MoleculeName": "CYP3A4"
             },
             {
-              "Name": "Total Hepatic Clearance-Reduction to alcohool",
+              "Name": "CYP2C19-HLM Mean",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Reduction to alcohols",
               "SystemicProcessType": "Hepatic"
             },
             {
@@ -2391,56 +1503,56 @@
           ],
           "Curves": [
             {
-              "Name": "S-Warfarin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Warfarin Na 25mg (S-12.5mg) fed|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Yin_2011_25mg_SD_S_fed-S-Warfarin-Measurement",
-              "X": "Yin_2011_25mg_SD_S_fed|Time",
-              "Y": "Yin_2011_25mg_SD_S_fed|ObservedData|||S-Warfarin|Measurement",
+              "Name": "Mallikaarjun_1999_25mg_SD_R_fed-R-Warfarin-Measurement",
+              "X": "Mallikaarjun_1999_25mg_SD_R_fed|Time",
+              "Y": "Mallikaarjun_1999_25mg_SD_R_fed|ObservedData|||R-Warfarin|Measurement",
               "CurveOptions": {
                 "Color": "#0000FF",
-                "LegendIndex": 6,
+                "LegendIndex": 8,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             },
             {
-              "Name": "Mallikaarjun_1999_25mg_SD_S_fed-S-Warfarin-Measurement",
-              "X": "Mallikaarjun_1999_25mg_SD_S_fed|Time",
-              "Y": "Mallikaarjun_1999_25mg_SD_S_fed|ObservedData|||S-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Sidharta_2014_25mg_S_fed-S-Warfarin-Measurement",
-              "X": "Sidharta_2014_25mg_S_fed|Time",
-              "Y": "Sidharta_2014_25mg_S_fed|ObservedData|||S-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#FF00FF",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Soon_2006_25mg_SD_S_fed-S-Warfarin-Measurement",
-              "X": "Soon_2006_25mg_SD_S_fed|Time",
-              "Y": "Soon_2006_25mg_SD_S_fed|ObservedData|||S-Warfarin|Measurement",
+              "Name": "Yin_2011_25mg_SD_R_fed-R-Warfarin-Measurement",
+              "X": "Yin_2011_25mg_SD_R_fed|Time",
+              "Y": "Yin_2011_25mg_SD_R_fed|ObservedData|||R-Warfarin|Measurement",
               "CurveOptions": {
                 "Color": "#FF8000",
-                "LegendIndex": 5,
+                "LegendIndex": 11,
                 "LineStyle": "None",
                 "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Soon_2006_25mg_SD_R_fed-R-Warfarin-Measurement",
+              "X": "Soon_2006_25mg_SD_R_fed|Time",
+              "Y": "Soon_2006_25mg_SD_R_fed|ObservedData|||R-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Sidharta_2014_25mg_R_fed-R-Warfarin-Measurement",
+              "X": "Sidharta_2014_25mg_R_fed|Time",
+              "Y": "Sidharta_2014_25mg_R_fed|ObservedData|||R-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "R-Warfarin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Warfarin Na 25mg (R-12.5mg) fed|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 7
               }
             }
           ],
@@ -2462,8 +1574,8 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "Title": "Warfarin Na 25mg (S-Warfarin 12.5mg) PO fed",
-          "OriginText": "Warfarin-Model-MG10325_Modified Rwarf\nWarfarin Na 25mg (S-12.5mg) fed\n2025-10-03 18:16"
+          "Title": "Warfarin Na 25mg (R-Warfarin 12.5mg) PO fed",
+          "OriginText": "Warfarin-Model_up\nWarfarin Na 25mg (R-12.5mg) fed\n2025-11-12 10:29"
         }
       ]
     },
@@ -2551,58 +1663,6 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)"
       ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (S- 12.5mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Almeida_2008_25mg_S_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (S- 12.5mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Rahimy_2002_25mg_SD_S_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (S- 12.5mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Malhotra_2011_25mg_S_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (S- 12.5mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Dingemanse_2013_25mg_S_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (S- 12.5mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "He_2007_25mg_S_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (S- 12.5mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Macha_2013_25mg_SD_S_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (S- 12.5mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Sanwald-Ducray_2014_25mg_SD_S_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (S- 12.5mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Stockis_2013_25mg_S_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (S- 12.5mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Toon_1987_25mg_S_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (S- 12.5mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Toon_1990_25mg_S_fasted"
-        }
-      ],
       "Individual": "Standard Male",
       "Compounds": [
         {
@@ -2623,14 +1683,14 @@
               "MoleculeName": "CYP2C9"
             },
             {
-              "MoleculeName": "CYP2C19"
-            },
-            {
               "MoleculeName": "CYP1A2"
             },
             {
               "Name": "CYP3A4-HLM mean",
               "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2C19"
             },
             {
               "Name": "Total Hepatic Clearance-Reduction to alcohool",
@@ -2835,6 +1895,214 @@
       ]
     },
     {
+      "Name": "Warfarin 30mg (S- 15mg) fasted",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Schwartz_2009_15_mg_S_fasted",
+        "Schwartz_2008_15mg_S_Fasted"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 170.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|15 mg warfarin PO|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard Male",
+      "Compounds": [
+        {
+          "Name": "S-Warfarin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2C9-HLM Mean",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP3A4-HLM mean",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Reduction to alcohool",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Renal Clearances-Urine excretion data (Heimark, Toon, O'Reilly)",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "15 mg warfarin PO",
+            "Formulations": [
+              {
+                "Name": "Weibull (Coumadin)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "S-Warfarin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Warfarin 30mg (S- 15mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "S PO 15 mg_Fas_Schwartz 2009-Warfarin-Measurement",
+              "X": "Schwartz_2009_15_mg_S_fasted|Time",
+              "Y": "Schwartz_2009_15_mg_S_fasted|ObservedData|||Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "S PO 15 mg_Fas_Schwartz 2008-Warfarin-Measurement",
+              "X": "Schwartz_2008_15mg_S_Fasted|Time",
+              "Y": "Schwartz_2008_15mg_S_Fasted|ObservedData|||Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Warfarin Na 30mg (S-Warfarin 15mg) fasted",
+          "OriginText": "Warfarin-Model-MG10325\n7.5mg S-Warfarin fasted\n2025-10-03 16:06"
+        }
+      ]
+    },
+    {
       "Name": "Warfarin Na 10mg (S- 5mg) fasted",
       "Model": "4Comp",
       "ObservedData": [
@@ -2912,28 +2180,6 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)"
       ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 10mg (S- 5mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Turpeinen_2013_10mg_S"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 10mg (S- 5mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Kim_2001_10mg_SD_S_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 10mg (S- 5mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Lilja_2007_10mg_S_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 10mg (S- 5mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Ngo_2010_10mg_S_fasted"
-        }
-      ],
       "Individual": "Standard Male",
       "Compounds": [
         {
@@ -2954,14 +2200,14 @@
               "MoleculeName": "CYP2C9"
             },
             {
-              "MoleculeName": "CYP2C19"
-            },
-            {
               "MoleculeName": "CYP1A2"
             },
             {
               "Name": "CYP3A4-HLM mean",
               "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2C19"
             },
             {
               "Name": "Total Hepatic Clearance-Reduction to alcohool",
@@ -3089,6 +2335,202 @@
       ]
     },
     {
+      "Name": "Warfarin Na 20mg (S- 10mg) fasted",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Ouellet_2006_20mg_S_fasted"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 170.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|20 mg warfarin sodium (10 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard Male",
+      "Compounds": [
+        {
+          "Name": "S-Warfarin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2C9-HLM Mean",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP3A4-HLM mean",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Reduction to alcohool",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Renal Clearances-Urine excretion data (Heimark, Toon, O'Reilly)",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "20 mg warfarin sodium (10 mg each enantiomer)",
+            "Formulations": [
+              {
+                "Name": "Weibull (Coumadin)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "S-Warfarin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Warfarin Na 20mg (S- 10mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Ouellet_2006_20mg_S_fasted-S-Warfarin-Measurement",
+              "X": "Ouellet_2006_20mg_S_fasted|Time",
+              "Y": "Ouellet_2006_20mg_S_fasted|ObservedData|||S-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Warfarin Na 20mg (S-Warfarin 10mg) PO fasted",
+          "OriginText": "warfarin\n20 mg Single Dose fasted\n2025-08-01 12:10"
+        }
+      ]
+    },
+    {
       "Name": "Warfarin Na 25mg (R- 12.5mg) fasted",
       "Model": "4Comp",
       "ObservedData": [
@@ -3170,48 +2612,6 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)"
       ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Almeida_2008_25mg_R_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Dingemanse_2013_25mg_R_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Malhotra_2011_25mg_R_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "He_2007_25mg_R_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Rahimy_2002_25mg_SD_R_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Stockis_2013_25mg_R_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Toon_1987_25mg_R_fasted"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Warfarin Na 25mg (R- 12.5mg) fasted|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Toon_1990_25mg_R_fasted"
-        }
-      ],
       "Individual": "Standard Male",
       "Compounds": [
         {
@@ -3231,16 +2631,16 @@
               "MoleculeName": "CYP2C9"
             },
             {
-              "Name": "CYP2C19-HLM Mean",
-              "MoleculeName": "CYP2C19"
-            },
-            {
               "Name": "CYP1A2-HLM Mean",
               "MoleculeName": "CYP1A2"
             },
             {
               "Name": "CYP3A4-HLM Mean",
               "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2C19-HLM Mean",
+              "MoleculeName": "CYP2C19"
             },
             {
               "Name": "Total Hepatic Clearance-Reduction to alcohols",
@@ -3420,18 +2820,18 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Warfarin Na 25mg (R-Warfarin 12.5mg) PO fasted",
-          "OriginText": "Warfarin-Model\nWarfarin Na 25mg (R- 12.5mg) fasted\n2025-10-10 14:04"
+          "OriginText": "Warfarin-Model\nWarfarin Na 25mg (R- 12.5mg) fasted\n2025-11-11 15:08"
         }
       ]
     },
     {
-      "Name": "Warfarin Na 25mg (R-12.5mg) fed",
+      "Name": "Warfarin Na 25mg (S-12.5mg) fed",
       "Model": "4Comp",
       "ObservedData": [
-        "Yin_2011_25mg_SD_R_fed",
-        "Soon_2006_25mg_SD_R_fed",
-        "Sidharta_2014_25mg_R_fed",
-        "Mallikaarjun_1999_25mg_SD_R_fed"
+        "Mallikaarjun_1999_25mg_SD_S_fed",
+        "Sidharta_2014_25mg_S_fed",
+        "Soon_2006_25mg_SD_S_fed",
+        "Yin_2011_25mg_SD_S_fed"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -3500,12 +2900,12 @@
         }
       ],
       "OutputSelections": [
-        "Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)"
+        "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)"
       ],
       "Individual": "Standard Male",
       "Compounds": [
         {
-          "Name": "R-Warfarin",
+          "Name": "S-Warfarin",
           "CalculationMethods": [
             "Cellular partition coefficient method - Rodgers and Rowland",
             "Cellular permeability - Charge dependent Schmitt"
@@ -3518,22 +2918,21 @@
           ],
           "Processes": [
             {
+              "Name": "CYP2C9-HLM Mean",
               "MoleculeName": "CYP2C9"
             },
             {
-              "Name": "CYP2C19-HLM Mean",
-              "MoleculeName": "CYP2C19"
-            },
-            {
-              "Name": "CYP1A2-HLM Mean",
               "MoleculeName": "CYP1A2"
             },
             {
-              "Name": "CYP3A4-HLM Mean",
+              "Name": "CYP3A4-HLM mean",
               "MoleculeName": "CYP3A4"
             },
             {
-              "Name": "Total Hepatic Clearance-Reduction to alcohols",
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Reduction to alcohool",
               "SystemicProcessType": "Hepatic"
             },
             {
@@ -3601,56 +3000,56 @@
           ],
           "Curves": [
             {
-              "Name": "Mallikaarjun_1999_25mg_SD_R_fed-R-Warfarin-Measurement",
-              "X": "Mallikaarjun_1999_25mg_SD_R_fed|Time",
-              "Y": "Mallikaarjun_1999_25mg_SD_R_fed|ObservedData|||R-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 8,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Yin_2011_25mg_SD_R_fed-R-Warfarin-Measurement",
-              "X": "Yin_2011_25mg_SD_R_fed|Time",
-              "Y": "Yin_2011_25mg_SD_R_fed|ObservedData|||R-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#FF8000",
-                "LegendIndex": 11,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Soon_2006_25mg_SD_R_fed-R-Warfarin-Measurement",
-              "X": "Soon_2006_25mg_SD_R_fed|Time",
-              "Y": "Soon_2006_25mg_SD_R_fed|ObservedData|||R-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#FF00FF",
-                "LegendIndex": 10,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Sidharta_2014_25mg_R_fed-R-Warfarin-Measurement",
-              "X": "Sidharta_2014_25mg_R_fed|Time",
-              "Y": "Sidharta_2014_25mg_R_fed|ObservedData|||R-Warfarin|Measurement",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 9,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "R-Warfarin-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "S-Warfarin-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Warfarin Na 25mg (R-12.5mg) fed|Organism|PeripheralVenousBlood|R-Warfarin|Plasma (Peripheral Venous Blood)",
+              "Y": "Warfarin Na 25mg (S-12.5mg) fed|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
-                "LegendIndex": 7
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Yin_2011_25mg_SD_S_fed-S-Warfarin-Measurement",
+              "X": "Yin_2011_25mg_SD_S_fed|Time",
+              "Y": "Yin_2011_25mg_SD_S_fed|ObservedData|||S-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Mallikaarjun_1999_25mg_SD_S_fed-S-Warfarin-Measurement",
+              "X": "Mallikaarjun_1999_25mg_SD_S_fed|Time",
+              "Y": "Mallikaarjun_1999_25mg_SD_S_fed|ObservedData|||S-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Sidharta_2014_25mg_S_fed-S-Warfarin-Measurement",
+              "X": "Sidharta_2014_25mg_S_fed|Time",
+              "Y": "Sidharta_2014_25mg_S_fed|ObservedData|||S-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Soon_2006_25mg_SD_S_fed-S-Warfarin-Measurement",
+              "X": "Soon_2006_25mg_SD_S_fed|Time",
+              "Y": "Soon_2006_25mg_SD_S_fed|ObservedData|||S-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
@@ -3672,8 +3071,424 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "Title": "Warfarin Na 25mg (R-Warfarin 12.5mg) PO fed",
-          "OriginText": "Warfarin-Model\nWarfarin Na 25mg (R-12.5mg) fed\n2025-10-15 09:22"
+          "Title": "Warfarin Na 25mg (S-Warfarin 12.5mg) PO fed",
+          "OriginText": "Warfarin-Model-MG10325_Modified Rwarf\nWarfarin Na 25mg (S-12.5mg) fed\n2025-10-03 18:16"
+        }
+      ]
+    },
+    {
+      "Name": "Warfarin Na 30mg (S- 15mg) fasted",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Liao_1996_30mg_SD_S_fed_4h"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 145.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|30 mg warfarin sodium (15 mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard Male",
+      "Compounds": [
+        {
+          "Name": "S-Warfarin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2C9-HLM Mean",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP3A4-HLM mean",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Reduction to alcohool",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Renal Clearances-Urine excretion data (Heimark, Toon, O'Reilly)",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "30 mg warfarin sodium (15 mg each enantiomer)",
+            "Formulations": [
+              {
+                "Name": "Weibull (Coumadin)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "meal",
+          "StartTime": {
+            "Value": 4.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "S-Warfarin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Warfarin Na 30mg (S- 15mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Liao_1996_30mg_SD_S_fed_4h-S-Warfarin-Measurement",
+              "X": "Liao_1996_30mg_SD_S_fed_4h|Time",
+              "Y": "Liao_1996_30mg_SD_S_fed_4h|ObservedData|||S-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Warfarin 7.5mg (S-Warfarin 15mg) PO fasted + meal post-dose ",
+          "OriginText": "Warfarin-Model-MG10325\nWarfarin Na 30mg (S- 15mg) fasted\n2025-10-03 16:57"
+        }
+      ]
+    },
+    {
+      "Name": "Warfarin Na 7.5mg (S- 3.75mg) fasted",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Frymoyer_2010_7.5mg_SD_S_fed_3h"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 150.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|7.5 mg warfarin sodium (3.75mg each enantiomer)|Weibull (Coumadin)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard Male",
+      "Compounds": [
+        {
+          "Name": "S-Warfarin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fitted",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2C9-HLM Mean",
+              "MoleculeName": "CYP2C9"
+            },
+            {
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP3A4-HLM mean",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2C19"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Reduction to alcohool",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Renal Clearances-Urine excretion data (Heimark, Toon, O'Reilly)",
+              "SystemicProcessType": "Renal"
+            }
+          ],
+          "Protocol": {
+            "Name": "7.5 mg warfarin sodium (3.75mg each enantiomer)",
+            "Formulations": [
+              {
+                "Name": "Weibull (Coumadin)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "meal",
+          "StartTime": {
+            "Value": 3.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "S-Warfarin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Warfarin Na 7.5mg (S- 3.75mg) fasted|Organism|PeripheralVenousBlood|S-Warfarin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Frymoyer_2010_7.5mg_SD_S_fed_3h-S-Warfarin-Measurement",
+              "X": "Frymoyer_2010_7.5mg_SD_S_fed_3h|Time",
+              "Y": "Frymoyer_2010_7.5mg_SD_S_fed_3h|ObservedData|||S-Warfarin|Measurement",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Warfarin Na 7.5mg (S-Warfarin 3.75mg) fasted + meal post-dose ",
+          "OriginText": "Warfarin-Model-MG10325\n7.5 mg Single Dose S warfarin fed\n2025-10-03 15:55"
         }
       ]
     }
@@ -8083,15 +7898,15 @@
       "Name": "PO administration",
       "Classifiables": [
         "Warfarin 26mg (S- 13mg) fed",
-        "Warfarin 30mg (S- 15mg) fasted",
-        "Warfarin Na 20mg (S- 10mg) fasted",
-        "Warfarin Na 7.5mg (S- 3.75mg) fasted",
-        "Warfarin Na 30mg (S- 15mg) fasted",
-        "Warfarin Na 25mg (S-12.5mg) fed",
+        "Warfarin Na 25mg (R-12.5mg) fed",
         "Warfarin Na 25mg (S- 12.5mg) fasted",
+        "Warfarin 30mg (S- 15mg) fasted",
         "Warfarin Na 10mg (S- 5mg) fasted",
+        "Warfarin Na 20mg (S- 10mg) fasted",
         "Warfarin Na 25mg (R- 12.5mg) fasted",
-        "Warfarin Na 25mg (R-12.5mg) fed"
+        "Warfarin Na 25mg (S-12.5mg) fed",
+        "Warfarin Na 30mg (S- 15mg) fasted",
+        "Warfarin Na 7.5mg (S- 3.75mg) fasted"
       ]
     },
     {
